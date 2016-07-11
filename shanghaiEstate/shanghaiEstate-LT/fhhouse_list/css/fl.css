@@ -1,0 +1,180 @@
+body{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	font-family: '微软雅黑';
+}
+
+a{
+  position: absolute;
+   left: 0px;
+   top: 100px; 
+}
+
+.page{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1280px;
+	height:720px;
+}
+.title{
+	position: absolute;
+	left:89px;
+	top:42px;
+}
+#tit{
+	position: absolute;
+	left:95px;
+	top:42px;
+	color:#FFFFFF;
+	font-size:32px;
+	width:600px;
+	display: none;
+}
+.ibpn{
+	position: absolute;
+	left: 80px;
+	top: 87px;
+	width: 1143px;
+	height:42px;
+}
+
+.bg_bottom{
+	position: absolute;
+	left: 98px;
+	top: 528px;
+	width: 695px;
+	height:122px;
+}
+
+#part_video_pic{
+	position: absolute;
+	left: 120px;
+	top: 548px;
+	width: 111px;
+	height:82px;
+}
+
+
+.part_video_na{
+   position: absolute;
+   left: 254px;
+   top: 535px;
+   width: 500px;
+   height:60px;
+   font-size:20px;
+   color:#ffffff;
+   line-height: 60px;
+
+}
+
+.part_video_pr{
+   position: absolute;
+   left: 254px;
+   top: 591px;
+   width: 438px;
+   height:45px;
+   font-size:24px;
+   color:#ffcc1b;
+   line-height: 45px;
+}
+
+#part_video_name{
+   font-size:30px;
+
+}
+
+#part_video_address{
+   font-size:20px;
+}
+
+#part_video_price{
+   font-size:30px;
+   font-weight: bold;
+}
+
+.parts{
+	position: absolute;
+    left: 811px;
+    width: 456px;
+    height:129px;
+}
+
+#part1{
+	top:138px;
+}
+
+#part2{
+	top:267px;
+}
+
+#part3{
+	top:396px;
+}
+
+#part4{
+	top:525px;
+}
+
+.part_img{
+	position: absolute;
+	left: 0px;
+    top: 0px;
+    width: 155px;
+    height:115px;
+}
+
+.part_nd{
+	position: absolute;
+	left: 168px;
+    top: 10px;
+    width: 277px;
+    height:45px;
+    line-height: 45px;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.part_name{
+	font-size:28px;
+}
+                
+.part_pr{
+	position: absolute;
+	left: 168px;
+    top: 58px;
+    width: 277px;
+    height:33px;
+    line-height: 33px;
+    color: #9e9b9b;
+    font-size: 21px;
+}
+
+#ib_f{
+  position:absolute;
+  left:1105px;
+  top:84px;
+  width:90px;
+  height:51px;	
+  display: none;
+}
+
+#part_f{   
+  position:absolute;
+  left:804px;
+  top:514px;
+  width:171px;
+  height:137px;	
+  display:none;
+}
+
+.pg{
+  position:absolute;
+  left:1031px;
+  top:100px;
+  width:80px;
+  height:29px;
+  text-align:center;
+  color:#a8a1a1;		
+}

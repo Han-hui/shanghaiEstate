@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>生活缴费_账单首页</title>
+		<meta name="author" content="aaa" />
+		<meta name="page-view-size" content="1280*720">
+		<meta http-equiv="pragma" content="no-cache" />
+		<link rel="stylesheet" type="text/css" href="css/shenghuojiaofei.css">
+		<script type="text/javascript" src="js/shenghuojiaofei_index.js"></script>	
+		
+		
+	</head>
+	<body>
+		<div class="abq">
+			<a id="butqr" href="javascript:queren();" onfocus="focbtn(1)" onblur="blubtn(1);">&nbsp;</a><!--确认按钮-->
+			<a id="butxzzq" href="javascript:openzd();" onfocus="focbtn(2)" onblur="blubtn(2);">&nbsp;</a><!--选择框-->
+			<a id="butjyjl" href="javascript:jisyijilu();" onfocus="focbtn(3)" onblur="blubtn(3);">&nbsp;</a><!--交易记录-->
+			<a id="butfh" href="javascript:void(0);" onfocus="focbtn(4)" onblur="blubtn(4);">&nbsp;</a><!--返回按钮-->
+			<a id="butsy" href="javascript:void(0);" onfocus="focbtn(5)" onblur="blubtn(5);">&nbsp;</a><!--首页按钮-->
+			<a id="m1" href="javascript:afterchosenmonth1();" onfocus="focbtn(6)" onblur="blubtn(6);">&nbsp;</a><!--本月按钮-->
+			<a id="m2" href="javascript:afterchosenmonth2();" onfocus="focbtn(7)" onblur="blubtn(7);">&nbsp;</a><!--三月按钮-->
+			<a id="m3" href="javascript:afterchosenmonth3();" onfocus="focbtn(8)" onblur="blubtn(8);">&nbsp;</a><!--半年按钮-->
+			<a id="m4" href="javascript:manefanhui();" onfocus="focbtn(9)" onblur="blubtn(9);">&nbsp;</a><!--满额返回-->
+			<a id="xy" href="javascript:void(0);" onfocus="focbtn(10)" onblur="blubtn(10);">&nbsp;</a><!--满额返回-->
+		</div>
+		<div class="bgpic"><!--背景&广告-->
+			<img id="bcgd" src="image_shenghuojiaofei/bg_01.png">
+			<img id="ad" src="image_shenghuojiaofei/ad1.png">
+		</div>
+		<div class="butt">
+			<img id="shouyefanhui" src="image_shenghuojiaofei/02.png"><!--首页返回按钮-->
+			<img id="jyjl" src="image_shenghuojiaofei/03.png"><!--交易记录按钮-->			
+			<img id="queren" src="image_shenghuojiaofei/10.png"><!--确认按钮-->
+			<div id="next">
+				<img id="xyy" src="image_shenghuojiaofei/08.png"><!--下一页按钮-->
+				<img id="ts" src="image_shenghuojiaofei/12.png">
+			</div>
+		</div>
+		<div class="xuanzekuang">
+			<img id="xzzq" src="image_shenghuojiaofei/04.png"><!--选择账期框-->
+			<div id="qxzzq">请选择账期</div><div id="byzd">本月账单</div><div class="date" id="da">2016年5月</div>
+		</div>
+		<div class="focu">
+			<img id="syfoc" src="image_shenghuojiaofei/05.png"><!--首页外发光 -->
+			<img id="fhfoc" src="image_shenghuojiaofei/05.png"><!--返回外发光 -->
+			<img id="jyjlfoc" src="image_shenghuojiaofei/06.png"><!--交易记录外发光 -->
+			<img id="xzfoc" src="image_shenghuojiaofei/07.png"><!--选择账期外发光 -->
+			<img id="xyyfoc" src="image_shenghuojiaofei/09.png"><!--下一页外发光 -->
+		</div>
+		<div class="namenum">
+			<div id="name">*翔溪</div>
+			<div id="num">16805541266</div>	
+		</div>
+		<div class="zdk1" id="zdk1">
+
+			<img id="zdkbg" src="image_shenghuojiaofei/01.png">	
+            <div id="zdk1_part1" style="display: none;">
+				<div class="ttl" id="tt1"></div>
+				<div class="date" id="dat1"></div>
+				<span class="pric" id="price1"><span id="pri1"></span> 元</span>
+            </div>
+            <div id="zdk1_part2" style="display: none;">
+				<div class="ttl" id="tt2"></div>
+				<div class="date" id="dat2"></div>
+				<span class="pric" id="price2"><span id="pri2"></span> 元</span>
+            </div>
+            <div id="zdk1_part3" style="display: none;">
+				<div class="ttl" id="tt3"></div>
+				<div class="date" id="dat3"></div>
+				<span class="pric" id="price3"><span id="pri3"></span> 元</span>
+			</div>
+
+			<span id="gong">共<span id="itemnum">0</span>项</span> <div id="hj">合计</div>
+
+			<span class="pric" id="price4"><span id="pri4">0.00</span> 元</span>
+
+		</div>
+		<img id="zdk2" src="image_shenghuojiaofei/13.png">
+		
+		<div id="popuop1"><!--满额提示-->
+			<img id="non" src="image_shenghuojiaofei/14.png">
+		</div>
+		
+		<div id="popuop2"><!--选择月份-->
+			<img id="popbc" src="image_shenghuojiaofei/15.png">
+			<img id="mont1" src="image_shenghuojiaofei/17.png">
+			<img id="mont2" src="image_shenghuojiaofei/17.png">
+			<img id="mont3" src="image_shenghuojiaofei/17.png">
+			
+			<div class="time">
+				<div id="benyue">本月账单</div><div id="tm1">2016年5月</div>
+				<div id="sanyue">三个月内账单</div><div id="tm2"><span id="tm21">2016年3月</span>-<span id="tm22">2016年5月</span></div>
+				<div id="bannian">半年内账单</div><div id="tm3"><span id="tm31">2015年12月</span>-<span id="tm32">2016年5月</span></div>
+			</div>
+		</div>
+		<div id="popuop3">
+			<img id="mets" src="image_shenghuojiaofei/16.png">
+		</div>
+	</body>
+</html>
+

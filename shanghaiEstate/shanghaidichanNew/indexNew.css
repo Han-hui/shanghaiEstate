@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+.main, .bgImg{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1280px;
+	height:720px;
+}
+.img{
+	position:absolute;
+	width:182px;
+	height:191px;
+	top:382px;
+	display:none;
+	z-index:9999;
+}
+#img1{
+	left:171px;
+}
+#img2{
+	left:360px;
+}
+#img3{
+	left:549px;
+}
+#img4{
+	left:738px;
+}
+#img5{
+	left:928px;
+}

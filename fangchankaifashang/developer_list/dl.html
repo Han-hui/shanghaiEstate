@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>房产开发商列表</title>
+		<meta name="author" content="aaa" />
+		<meta name="page-view-size" content="1280*720">
+		<link rel="stylesheet" type="text/css" href="css/dl.css">
+		 <script type="text/javascript" src="../ntv/js/1common.js"></script>
+         <script type="text/javascript" src="../ntv/js/2core.js"></script>
+		 <script type="text/javascript" src="../ntv/js/3key.js"></script>
+		 <script type="text/javascript" src="../ntv/js/4navigation.js"></script> 
+		 <script type="text/javascript" src="../ntv/js/5page.js"></script>
+		 <script type="text/javascript" src="../ntv/js/6ipanel.js"></script>
+		 <script type="text/javascript" src="../ntv/js/6ngb_h.js"></script>
+		 <script type="text/javascript" src="../ntv/js/6pc.js"></script>
+		 <script type="text/javascript" src="../ntv/js/6shdv.js"></script>
+		 <script type="text/javascript" src="../ntv/js/7msg.js"></script>
+		 <script type="text/javascript" src="../ntv/js/8stb.js"></script>
+		 <script type="text/javascript" src="../ntv/js/10ocn_media_player.js"></script>
+		 <script src="../../env_info.js" type="text/javascript" charset="utf-8"></script>
+		 <script type="text/javascript" src="js/ajax.js"></script>
+		 <script type="text/javascript" src="js/keypress.js"></script>
+		 <script type="text/javascript" src="js/dl.js"></script>
+		
+    </head>
+
+    <body >
+         
+
+        <a id="index"    href="../../index.html"    onfocus='part_fo(101)' onblur="part_br(101)">&nbsp</a>
+        <a id="back"     href="javascript:history.go(-1)"    onfocus="part_fo(102)" onblur="part_br(102)">&nbsp</a>
+        <a id="previous" href="javascript:nextpage(2)"    onfocus='part_fo(103)' onblur="part_br(103)">&nbsp</a>
+        <a id="next"     href="javascript:nextpage(1)"    onfocus="part_fo(104)" onblur="part_br(104)">&nbsp</a>
+
+        <a id="a1" href="javascript:dd(1)" onfocus='part_fo(1)' onblur="part_br(1)">&nbsp</a>
+        <a id="a2" href="javascript:dd(2)" onfocus="part_fo(2)" onblur="part_br(2)">&nbsp</a>
+        <a id="a3" href="javascript:dd(3)" onfocus="part_fo(3)" onblur="part_br(3)">&nbsp</a>
+        <a id="a4" href="javascript:dd(4)" onfocus="part_fo(4)" onblur="part_br(4)">&nbsp</a>
+        <a id="a5" href="javascript:dd(5)" onfocus="part_fo(5)" onblur="part_br(5)">&nbsp</a>
+        <a id="a6" href="javascript:dd(6)" onfocus="part_fo(6)" onblur="part_br(6)">&nbsp</a>
+
+        <img class="page" src="image/bg.png">
+        <img id="ib_f"  src="image/iabf_agent.png"> 
+        <div class="pg" id="pg">
+            <span id="pagenow">1</span>
+            /
+            <span id="pagemax">2</span>
+        </div>
+
+        <div id='part1' class="parts">
+            <img id="part_bg1" class="part_bg" src="image/part_blur.png">
+            <img id="part1_img" class="parts_img" src="image/fhpic1.jpg">
+            <div class="parts_name">
+                <span id="dn1" class="dn">万科地产</span>
+                <div id="di1">赞美生命 共筑城市</div>
+            </div>
+            <div class="stars">
+                <img id="star1" class="star" src="image/star_small.png">
+            </div>
+            <div id="sn1" class="star_num">(28)</div>
+            <div class="building_num">
+                共有项目&nbsp
+                <span id="bn1" class="bn">12</span>
+                &nbsp个
+            </div>
+        </div>
+
+        <div id='part2' class="parts">
+            <img id="part_bg2" class="part_bg" src="image/part_blur.png">
+            <img id="part2_img" class="parts_img" src="image/fhpic1.jpg">
+            <div class="parts_name">
+                <span id="dn2" class="dn">万科地产</span>
+                <div id="di2">赞美生命 共筑城市</div>
+            </div>
+            <div class="stars">
+                <img id="star2" src="image/star_small.png">
+            </div>
+            <div id="sn2" class="star_num">(28)</div>
+            <div class="building_num">
+                共有项目&nbsp
+                <span id="bn2" class="bn">12</span>
+                &nbsp个
+            </div>
+        </div>
+
+        <div id='part3' class="parts">
+
+            <img id="part_bg3" class="part_bg" src="image/part_blur.png">
+            <img id="part3_img" class="parts_img" src="image/fhpic1.jpg">
+            <div class="parts_name">
+                <span id="dn3" class="dn">万科地产</span>
+                <div id="di3">赞美生命 共筑城市</div>
+            </div>
+            <div class="stars">
+                <img id="star3" class="star"  src="image/star_small.png">
+            </div>
+            <div id="sn3" class="star_num">(28)</div>
+            <div class="building_num">
+                共有项目&nbsp
+                <span id="bn3" class="bn">12</span>
+                &nbsp个
+            </div>
+        </div>
+
+         <div id='part4' class="parts">
+
+            <img id="part_bg4" class="part_bg" src="image/part_blur.png">
+            <img id="part4_img" class="parts_img" src="image/fhpic1.jpg">
+            <div class="parts_name">
+                <span id="dn4" class="dn">万科地产</span>
+                <div id="di4">赞美生命 共筑城市</div>
+            </div>
+            <div class="stars">
+                <img id="star4" class="star"  src="image/star_small.png">
+            </div>
+            <div id="sn4" class="star_num">(28)</div>
+            <div class="building_num">
+                共有项目&nbsp
+                <span id="bn4" class="bn">12</span>
+                &nbsp个
+            </div>
+        </div>
+
+        <div id='part5' class="parts">
+
+            <img id="part_bg5" class="part_bg" src="image/part_blur.png">
+            <img id="part5_img" class="parts_img" src="image/fhpic1.jpg">
+            <div class="parts_name">
+                <span id="dn5" class="dn">万科地产</span>
+                <div id="di5">赞美生命 共筑城市</div>
+            </div>
+            <div class="stars">
+                <img id="star5" class="star"  src="image/star_small.png">
+            </div>
+            <div id="sn5" class="star_num">(28)</div>
+            <div class="building_num">
+                共有项目&nbsp
+                <span id="bn5" class="bn">12</span>
+                &nbsp个
+            </div>
+        </div>
+
+        <div id='part6' class="parts">
+
+            <img id="part_bg6" class="part_bg" src="image/part_blur.png">
+            <img id="part6_img" class="parts_img" src="image/fhpic1.jpg">
+            <div class="parts_name">
+                <span id="dn6" class="dn">万科地产</span>
+                <div id="di6">赞美生命 共筑城市</div>
+            </div>
+            <div class="stars">
+                <img id="star6" class="star"  src="image/star_small.png">
+            </div>
+            <div id="sn6" class="star_num">(28)</div>
+            <div class="building_num">
+                共有项目&nbsp
+                <span id="bn6" class="bn">12</span>
+                &nbsp个
+            </div>
+        </div>
+        
+        	
+        </div>
+
+	<!--如果找不到数据-->
+			<div id="none" style="display: none;">
+				<img src="image/none.png" style="position: absolute;top:260px;left:552px;"/>
+				<div style="color:#CCCCCC;font-size:26px;font-weight: bold;position: absolute;top:444px;left:524px;width:400px;">
+					找不到匹配的结果
+				</div>
+			</div>
+    </body>
+
+</html>

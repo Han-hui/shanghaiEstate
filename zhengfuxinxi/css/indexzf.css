@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+body{
+	background-color: transparent;
+	margin:0;
+	padding:0;
+}
+#bgImg{
+	display: block;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#aa{
+	position:absolute;
+	top:20px;
+	left:20px;
+}
+.con div{
+	position: absolute;
+	z-index: 9999;
+	font-family: "黑体";
+}
+.title{
+	font-size:26px;
+	color:#fff;
+	font-weight:bold;
+	
+}
+.f18{
+	font-size:18px;
+	color:#fff;
+}
+.f16{
+	font-size:16px;
+	color:#fff;
+	font-weight: bold;
+	font-family: "黑体";
+}
+.f20{
+	font-size:20px;
+	color:#ccc;
+}
+#t1{
+	top:172px;
+	width:890px;
+	left:117px;
+}
+#t1Date{
+	top:172px;
+	left:1059px;
+}
+#tt1{
+	width:1049px;
+	top:215px;
+	left:117px;
+	line-height: 32px;
+}
+#t2{
+	top:346px;
+	width:890px;
+	left:117px;
+}
+#t2Date{
+	top:346px;
+	left:1059px;
+}
+#tt2{
+	width:1049px;
+	top:388px;
+	left:117px;
+	line-height: 32px;
+}
+#t3{
+	top:512px;
+	width:890px;
+	left:117px;
+}
+#t3Date{
+	top:512px;
+	left:1059px;
+}
+#tt3{
+	width:1049px;
+	top:556px;
+	left:117px;
+	line-height: 32px;
+}
+.conImg img{
+	position: absolute;
+	z-index: 111;
+	left:90px;
+}
+#im1{
+	left:80px;
+	top:130px;
+	display: none;
+}
+#im2{
+	left:80px;
+	top:306px;
+	display: none;
+}
+#im3{
+	left:80px;
+	top:475px;
+	display: none;
+}
+#img1{
+	top:140px;	
+	display: none;
+}
+#img2{
+	top:316px;
+	display: block;
+}
+#img3{
+	top:485px;
+	display: block;
+}
+.gongneng div, .gongneng img{
+	position: absolute;
+	top:109px;
+}
+#preCon{
+	left:963px;
+	z-index: 9999;
+	color:#ccc;
+}
+.gongneng #pre{
+	left:947px;
+	top:79px;
+	z-index: 666;
+}
+#num{
+	left:1055px;
+	color:#ccc;
+}
+#nextCon{
+	left:1120px;
+	z-index: 9999;
+	color:#ccc;
+}
+.gongneng #next{
+	left:1104px;
+	top:79px;
+	z-index: 666;
+}
+#ig1{
+	left:75px;
+	top:90px;
+	width:101px;
+	height:50px;
+	display: none;
+}
+#ig2{
+	left:143px;
+	top:90px;
+	width:101px;
+	height:50px;
+	display: none;
+}
+#ig3{
+	left:933px;
+	top:89px;
+	width:109px;
+	height:53px;
+	display: none;
+}
+#ig4{
+	left:1090px;
+	top:89px;
+	width:109px;
+	height:53px;
+	display: none;
+}

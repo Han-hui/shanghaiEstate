@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>一手房详情</title>
+		<meta name="author" content="aaa" />
+		<meta name="page-view-size" content="1280*720">
+		<link rel="stylesheet" type="text/css" href="css/fd.css">
+		 <script type="text/javascript" src="../env_info.js"></script>
+		 <!--<script type="text/javascript" src="../ntv/js/1common.js"></script>
+         <script type="text/javascript" src="../ntv/js/2core.js"></script>
+		 <script type="text/javascript" src="../ntv/js/3key.js"></script>
+		 <script type="text/javascript" src="../ntv/js/4navigation.js"></script> 
+		 <script type="text/javascript" src="../ntv/js/5page.js"></script>
+		 <script type="text/javascript" src="../ntv/js/6ipanel.js"></script>
+		 <script type="text/javascript" src="../ntv/js/6ngb_h.js"></script>
+		 <script type="text/javascript" src="../ntv/js/6pc.js"></script>
+		 <script type="text/javascript" src="../ntv/js/6shdv.js"></script>
+		 <script type="text/javascript" src="../ntv/js/7msg.js"></script>
+		 <script type="text/javascript" src="../ntv/js/8stb.js"></script>
+		 <script type="text/javascript" src="../ntv/js/10ocn_media_player.js"></script>-->
+		 <script type="text/javascript" src="js/ajax.js"></script>
+		 <script type="text/javascript" src="js/keypress.js"></script>
+		 <script type="text/javascript" src="js/fd.js"></script>
+		
+    </head>
+
+    <body>
+        
+        <a id="index" href="../../shanghaidichanNew/index.html" onfocus='ib_f(1)' onblur="ib_b()">&nbsp</a>
+        <a id="back"  href="javascript:history.go(-1);"   onfocus="ib_f(2)" onblur="ib_b()">&nbsp</a>
+
+        <a id="a1" href="javascript:void(0);" onfocus='iconf(1);' onblur="iconb(1)">&nbsp</a>
+        <a id="a2" href="javascript:void(0);" onfocus="iconf(2);" onblur="iconb(2)">&nbsp</a>
+        <a id="a3" href="javascript:void(0);" onfocus="iconf(3);" onblur="iconb(3)">&nbsp</a>
+        <a id="a4" href="javascript:void(0);" onfocus="iconf(4);" onblur="iconb(4)">&nbsp</a>
+        <a id="a5" href="javascript:void(0);" onfocus="iconf(5);" onblur="iconb(5)">&nbsp</a>
+
+        <a id="button"  href="../yuyuekanfang/yuyuekanfang_index.html"   onfocus="button_fb(1)" onblur="button_fb(2)">&nbsp</a>
+
+        <img class="page" src="image/bg.png">	
+
+        <div class="nd">
+        	<span id="name">淮海名邸</span>
+        	&nbsp|&nbsp 
+        	<span id="district">长宁</span>
+        </div>
+
+        <div id="phonenum">400-1234-1234</div>
+
+        <div id="address_sell">长宁区安顺路69号2楼</div>
+        <div id="time_kf">2015年9月8日起, 每天 8:00~21:00</div>
+
+        <img id="ib" style="" src="image/iabf_agent.png">
+
+        <img id="p1icon" class="picons" src="image/tab_1_focused.png">
+        <img id="p2icon" class="picons" src="image/tab_2_unfocused.png">
+        <img id="p3icon" class="picons" src="image/tab_3_unfocused.png">
+        <img id="p4icon" class="picons" src="image/tab_4_unfocused.png">
+        <img id="p5icon" class="picons" src="image/tab_5_unfocused.png">
+
+        <img id="icon_f1" class="icon_f" src="image/icon_f.png">
+        <img id="icon_f2" class="icon_f" src="image/icon_f.png">
+        <img id="icon_f3" class="icon_f" src="image/icon_f.png">
+        <img id="icon_f4" class="icon_f" src="image/icon_f.png">
+        <img id="icon_f5" class="icon_f" src="image/icon_f.png">
+        
+        <img id="button_f" src="image/00_focused_choice.png">
+
+        <div id="part1" >
+
+            <a id="part1_a1" href="javascript:void(0)" onfocus='part1f(1)'>&nbsp</a>
+            <a id="part1_a2" href="javascript:void(0)" onfocus="part1f(2)">&nbsp</a>
+            <a id="part1_a3" href="javascript:void(0)" onfocus="part1f(3)">&nbsp</a>
+            <a id="part1_a4" href="javascript:void(0)" onfocus="part1f(4)">&nbsp</a>
+            <a id="part1_a5" href="javascript:void(0)" onfocus="part1f(5)">&nbsp</a>
+            <a id="part1_a6" href="javascript:void(0)" onfocus="part1f(6)">&nbsp</a>
+
+            <img class="part1bg" src="image/bg_part1.png">
+            <div class="part1_na">
+            	<span id="part1_name">淮海名邸</span>
+            	&nbsp|&nbsp
+            	<span id="part1_address">长宁区安顺路58号</span>
+            </div>
+            <div class="part1_pr">
+                <span id="part1_price">110000</span>
+                元/平
+            </div>
+            <div id="part1_time_kf">2015年9月8日起，每天8:00~21:00</div>
+            <div id="part1_time_kp">2015年10月8日</div>
+            <div id="part1_time_jf">2016年3月10日</div>
+            <img class="spic" id="part1_spic1" src="image/spic1.png">
+            <img class="spic" id="part1_spic2" src="image/spic2.png">
+            <img class="spic" id="part1_spic3" src="image/spic1.png">
+            <img class="spic" id="part1_spic4" src="image/spic2.png">
+            <img class="spic" id="part1_spic5" src="image/spic1.png">
+            <img class="spic" id="part1_spic6" src="image/spic2.png">
+            <img id="spic_f" src="image/spic_f.png"><!--150-->
+            <img id="part1_bpic" src="image/spic1.png">
+
+        </div>
+		<img src="image/pic_not_upload2.png" alt="" id="part2_noload" />
+        <div id="part2">
+            
+            <a id="part2_a1" href="javascript:void(0)" onfocus='part2f(1)'>&nbsp</a>
+            <a id="part2_a2" href="javascript:void(0)" onfocus="part2f(2)">&nbsp</a>
+            <a id="part2_a3" href="javascript:void(0)" onfocus="part2f(3)">&nbsp</a>
+        	<img id="part2_zs" src="image/part2_zs.png">
+        	<img id="part2_f1" class="part2_f" src="image/icon_f.png">
+            <div id="part2_name1" class="part2_name">土地使用证</div>
+            <div id="part2_name2" class="part2_name">建设用地规划许可</div>
+            <div id="part2_name3" class="part2_name">建设工程规划许可</div>
+			
+            <div class="part2_page">
+            	<span id="part2_page_now">1</span>
+            	页 / 
+            	<span id="part2_page_max">1</span>
+            	页
+            </div>
+
+        </div>
+
+        <div id="part3">
+            
+            <a id="part3_a1" href="javascript:void(0)" onfocus="part3f(1)">&nbsp</a>
+            <a id="part3_a2" href="javascript:void(0)" onfocus="part3f(2)">&nbsp</a>
+            <a id="part3_a3" href="javascript:void(0)" onfocus="part3f(3)">&nbsp</a>
+            <a id="part3_a4" href="javascript:void(0)" onfocus="part3f(4)">&nbsp</a>
+            <a id="part3_a5" href="javascript:void(0)" onfocus="part3f(5)">&nbsp</a>
+            <a id="part3_a6" href="javascript:void(0)" onfocus="part3f(6)">&nbsp</a>
+        	<img id="part3_bg" src="image/bg_part3.png">
+        	<img id="part3_hxt" src="image/part3_hx.png">
+        	<img id="part3_f1" class="part3_f" src="image/icon_f.png"><!--153-->
+        	<div id="part3_hx1" class="part3_hx">1室1厅1卫</div>
+            <div id="part3_hx2" class="part3_hx">2室1厅1卫</div>
+            <div id="part3_hx3" class="part3_hx">2室2厅1卫</div>
+            <div id="part3_hx4" class="part3_hx">3室1厅1卫</div>
+            <div id="part3_hx5" class="part3_hx">4室1厅1卫</div>
+            <div id="part3_hx6" class="part3_hx">4室2厅1卫</div>
+            <div class="part3_ar">
+	            <span id="part3_area">288.35</span>
+	            平米
+            </div>
+            <div class="part3_pr">
+	            <span id="part3_price">3168</span>
+	            万元 
+            </div>
+            <div id="part3_cx" class="part3_cxms">
+	            南北
+            </div>
+            <div id="part3_ms" class="part3_cxms">
+	            朝向 南北 描述 客厅朝南带大阳台，采光明亮。带窗户的        厨房朝北。三个卫生间，两小一大。
+            </div>
+            
+        </div>
+
+        <div id="part4">
+            
+            <a id="part4_a1" href="javascript:part4h(1)" onfocus="part4f(1)">&nbsp</a>
+            <a id="part4_a2" href="javascript:part4h(2)" onfocus="part4f(2)">&nbsp</a>
+            <img id="part4_f1"  src="image/icon_f.png">
+
+		    <div class="lpxq">楼盘详情</div>
+            <div class="wyxq">物业详情</div>
+
+            
+            <div id="part4_1">
+                <img id='part4_bg1' src="image/bg1_part4.png">
+	            <div class="part4_1_1">
+	            	<div id="lpmc" class="part4_li">淮海名邸</div>
+	            	<div id="lpdz" class="part4_li">上海长宁区安顺路58号</div>
+	            	<div id="slcdz" class="part4_li">长宁区安顺路69号2楼</div>
+	            	<div id="kfs"  class="part4_li">上海景亿利房地产开发有限公司</div>
+	            	<div id="zxkp" class="part4_li">2015年10月8日</div>
+	            	<div id="zzjf" class="part4_li">2016年3月10日</div>
+	            	<div id="cqnx" class="part4_li">70年</div>
+	            	<div id="ghhs" class="part4_li">38</div>
+	            </div>
+	            <div class="part4_1_2">
+	            	<div id="cwqk" class="part4_li">地上车位数0; 地下车位数38</div>
+	            	<div id="zxzk" class="part4_li">精装修</div>
+	            	<div id="jzlx" class="part4_li">暂无</div>
+	            	<div id="fwlx"  class="part4_li">普通住宅</div>
+	            	<div id="ckjj" class="part4_li">11000元/平</div>
+	            </div>
+	         </div> 
+
+	         <div id="part4_2">
+                <img id='part4_bg2' src="image/bg2_part4.png">
+	            <div class="part4_1_1">
+	            	<div id="wygs" class="part4_li">第一太平戴维斯</div>
+	            	<div id="zdmj" class="part4_li">5774.00平</div>
+	            	<div id="jzmj" class="part4_li">58148.00平</div>
+	            	<div id="rjl"  class="part4_li">1.80</div>
+	            	<div id="lhl" class="part4_li">35%</div>
+	            	<div id="wyfy" class="part4_li">12.80元/平/月</div>
+	            	<div id="gnfs" class="part4_li">集中供暖</div>
+	            	<div id="sdmq" class="part4_li">民水 民电</div>
+	            </div>
+	         </div> 
+
+        </div>
+
+        <div id="part5">
+            
+            <img id="part5_img"  src="image/loading.jpg">
+			<div id="part5_tit">
+				公交
+			</div>
+        </div>
+
+        <div id="part6" >
+
+            <a id="part6_a1" href="javascript:void(0)" onfocus='part6f(1)'>&nbsp</a>
+            <a id="part6_a2" href="javascript:void(0)" onfocus="part6f(2)">&nbsp</a>
+            <a id="part6_a3" href="javascript:void(0)" onfocus="part6f(3)">&nbsp</a>
+            <a id="part6_a4" href="javascript:void(0)" onfocus="part6f(4)">&nbsp</a>
+            <a id="part6_a5" href="javascript:void(0)" onfocus="part6f(5)">&nbsp</a>
+            <a id="part6_a6" href="javascript:void(0)" onfocus="part6f(6)">&nbsp</a>
+
+            <img class="part1bg" src="image/bg_part1.png">
+            <div class="part1_na">
+            	<span id="part6_name">淮海名邸</span>
+            	&nbsp|&nbsp
+            	<span id="part6_address">长宁区安顺路58号</span>
+            </div>
+            <div class="part1_pr">
+                <span id="part6_price">110000</span>
+                元/平
+            </div>
+            <div id="part6_time_kf">2015年9月8日起，每天8:00~21:00</div>
+            <div id="part6_time_kp">2015年10月8日</div>
+            <div id="part6_time_jf">2016年3月10日</div>
+            <img class="spic" id="part6_spic1" src="image/spic1.png">
+            <img class="spic" id="part6_spic2" src="image/spic2.png">
+            <img class="spic" id="part6_spic3" src="image/spic1.png">
+            <img class="spic" id="part6_spic4" src="image/spic2.png">
+            <img class="spic" id="part6_spic5" src="image/spic1.png">
+            <img class="spic" id="part6_spic6" src="image/spic2.png">
+            <img id="part6_f1" src="image/spic_f.png"><!--150-->
+            <img id="part6_bpic" src="image/spic1.png">
+
+        </div>
+
+
+        
+
+
+	<!--<div id="test" style="position:absolute;left:200px;top:200px;width:100px;color:#FFFFFF">11</div>-->
+
+    </body>
+
+</html>

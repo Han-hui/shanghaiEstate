@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>一手房列表</title>
+		<meta name="author" content="aaa" />
+		<meta name="page-view-size" content="1280*720">
+		<link rel="stylesheet" type="text/css" href="css/fl.css">
+		
+		 <script type="text/javascript" src="../../env_info.js"></script>
+		 <script type="text/javascript" src="../ntv/js/1common.js"></script>
+         <script type="text/javascript" src="../ntv/js/2core.js"></script>
+		 <script type="text/javascript" src="../ntv/js/3key.js"></script>
+		 <script type="text/javascript" src="../ntv/js/4navigation.js"></script> 
+		 <script type="text/javascript" src="../ntv/js/5page.js"></script>
+		 <script type="text/javascript" src="../ntv/js/6ipanel.js"></script>
+		 <script type="text/javascript" src="../ntv/js/6ngb_h.js"></script>
+		 <script type="text/javascript" src="../ntv/js/6pc.js"></script>
+		 <script type="text/javascript" src="../ntv/js/6shdv.js"></script>
+		 <script type="text/javascript" src="../ntv/js/7msg.js"></script>
+		 <script type="text/javascript" src="../ntv/js/8stb.js"></script>
+		 <script type="text/javascript" src="../ntv/js/10ocn_media_player.js"></script>
+		 <script type="text/javascript">
+//		 	getFan();
+//			 function getFan(){
+//			    //机顶盒类型判断需引入ntv框架
+//					var browser = ntv.profile.browser;//用于辨别机顶盒类型  ***该方法待测试 如有问题可将下面方法取出分别应用
+//					
+//					if(browser == "iPanel"){
+//					//高清机顶盒获取mac方法
+//						window.location.href = "gaoqing/fhhouse3s.html"
+//						return false;
+//				    }
+//			
+//				    else{
+//				    }
+//			}
+		</script>
+		 <script type="text/javascript" src="js/ajax.js"></script>
+		 <script type="text/javascript" src="js/keypress.js"></script>
+		 <script type="text/javascript" src="js/fl.js"></script>
+		 
+    </head>
+
+    <body style="background: transparent;">
+         
+
+        <a id="index"    href="../../index.html"    onfocus='part_fo(101)' onblur="part_br()">&nbsp</a>
+        <a id="back"     href="../../index.html"      onfocus="part_fo(102)" onblur="part_br()">&nbsp</a>
+        <a id="previous" href="javascript:nextpage(2);"             onfocus='part_fo(103)' onblur="part_br()">&nbsp</a>
+        <a id="next"     href="javascript:nextpage(1);"             onfocus="part_fo(104)" onblur="part_br()">&nbsp</a>
+
+        <a id="a1" href="javascript:fdpage(1)" onfocus="part_fo(1)" onblur="part_br()">&nbsp</a>
+        <a id="a2" href="javascript:fdpage(2)" onfocus="part_fo(2)" onblur="part_br()">&nbsp</a>
+        <a id="a3" href="javascript:fdpage(3)" onfocus="part_fo(3)" onblur="part_br()">&nbsp</a>
+        <a id="a4" href="javascript:fdpage(4)" onfocus="part_fo(4)" onblur="part_br()">&nbsp</a>
+
+        <img class="page" src="image/bg.png">
+        <img src="image/title.png" alt="" class="title" id="title"/>
+        <div id="tit">楼盘信息</div>
+        <img class="ibpn" src="image/ibpn.png">
+        <img class="bg_bottom" src="image/bg_bottom.png">
+        <img id="ib_f"  src="image/iabf_agent.png">  <!--85/152/946/1105-->
+        <div class="pg">
+        	<span id="pagenow">1</span>
+        	/
+        	<span id="pagemax">2</span>
+        </div>
+
+        <div id="key" style="position: absolute;left:200px;top:100px;color:#ffffff;display: none;">
+        keycode:
+        </div>
+
+        <div id="part_video">
+
+        	<img id="part_video_pic" src="image/house0.png">
+
+        	<div class="part_video_na">
+            	<span id="part_video_name">淮海名邸</span>
+            	&nbsp|&nbsp
+            	<span id="part_video_address">长宁区安顺路58号</span>
+            </div>
+
+            <div class="part_video_pr">
+                均价&nbsp
+                <span id="part_video_price">110000</span>
+                元/平
+            </div>
+        	
+        </div>
+
+         <div id="part_list">
+
+             <div id="part1" class="parts">
+             	 <img id="part_img1" class="part_img" src="image/house0.png">
+             	 <div class="part_nd">
+             	 	<span id="part1_name" class="part_name">淮海名邸</span>
+             	 	&nbsp|&nbsp
+             	 	<span id="part1_district">长宁</span>
+             	 </div>
+             	 <div class="part_pr">
+             	    均价&nbsp
+             	 	<span id="part1_price" >11000</span>
+             	 	&nbsp元/平
+             	 </div>
+             </div>
+
+             <div id="part2" class="parts">
+             	 <img id="part_img2" class="part_img" src="image/house1.png">
+             	 <div class="part_nd">
+             	 	<span id="part2_name" class="part_name">淮海名邸</span>
+             	 	&nbsp|&nbsp
+             	 	<span id="part2_district">长宁</span>
+             	 </div>
+             	 <div class="part_pr">
+             	    均价&nbsp
+             	 	<span id="part2_price" >11000</span>
+             	 	&nbsp元/平
+             	 </div>
+             </div>
+
+             <div id="part3" class="parts">
+             	 <img id="part_img3" class="part_img" src="image/house2.png">
+             	 <div class="part_nd">
+             	 	<span id="part3_name" class="part_name">淮海名邸</span>
+             	 	&nbsp|&nbsp
+             	 	<span id="part3_district">长宁</span>
+             	 </div>
+             	 <div class="part_pr">
+             	    均价&nbsp
+             	 	<span id="part3_price" >11000</span>
+             	 	&nbsp元/平
+             	 </div>
+             </div>
+
+             <div id="part4" class="parts">
+             	 <img id="part_img4" class="part_img" src="image/house3.png">
+             	 <div class="part_nd">
+             	 	<span id="part4_name" class="part_name">淮海名邸</span>
+             	 	&nbsp|&nbsp
+             	 	<span id="part4_district">长宁</span>
+             	 </div>
+             	 <div class="part_pr">
+             	    均价&nbsp
+             	 	<span id="part4_price" >11000</span>
+             	 	&nbsp元/平
+             	 </div>
+             </div>
+
+             <img id="part_f" src="image/fhhouse_li_f.png">
+        	
+        </div>
+
+
+    </body>
+
+</html>

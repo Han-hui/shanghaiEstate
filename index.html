@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="page-view-size" content="1280*720">
+<title>上海地产</title>
+<style>
+.c1 {
+	border:1px solid #000000;
+}
+.duration{-webkit-transition-duration:200ms;}
+.icons img{ position:relative; float:left;}
+.icons{top:335px;position:relative;left:85px; width:1150px;height:100px;}
+.icons2{top:370px;position:relative;left:0px;width:1200px;height:100px;}
+.icons3{top:605px;position:relative;left:0px;width:1200px;height:100px;z-index:999;}
+</style>
+<script src="ntv/1common.js" type="text/javascript" charset="utf-8"></script>
+<script src="ntv/2core.js" type="text/javascript" charset="utf-8"></script>
+<script src="ntv/3key.js" type="text/javascript" charset="utf-8"></script>
+<script src="ntv/4navigation.js" type="text/javascript" charset="utf-8"></script>
+<script src="ntv/5page.js" type="text/javascript" charset="utf-8"></script>
+<script src="ntv/6ipanel.js" type="text/javascript" charset="utf-8"></script>
+<script src="ntv/6ngb_h.js" type="text/javascript" charset="utf-8"></script>
+<script src="ntv/6pc.js" type="text/javascript" charset="utf-8"></script>
+<script src="ntv/6shdv.js" type="text/javascript" charset="utf-8"></script>
+<script src="ntv/7msg.js" type="text/javascript" charset="utf-8"></script>
+<script src="ntv/8stb.js" type="text/javascript" charset="utf-8"></script>
+<script src="ntv/9utils.js" type="text/javascript" charset="utf-8"></script>
+<script src="ntv/10ocn_media_player.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="ajax.js" type="text/javascript" charset="utf-8"></script>-->
+<script type="text/javascript">
+var fffNow;
+var timer1,timer,clearFlag=true;
+window.onload = function(){
+    document.getElementById('11').focus(); 
+//  document.getElementById("wwww").innerHTML = getMac();
+    document.onsystemevent = grabEvent1;
+    document.onkeypress = grabEvent1;
+    document.onirkeypress = grabEvent1;
+	document.onkeydown = grabEvent1;
+    function grabEvent1(event){
+	    var val = event || window.event || arguments.callee.caller.arguments[0];
+	    switch(val.keyCode){
+			case 38: //shang
+				if (fffNow == 21) {
+					document.getElementById("11").focus();
+					return false;
+				}
+				if (fffNow == 22) {
+					document.getElementById("12").focus();
+					return false;
+				}
+				if (fffNow == 23) {
+					document.getElementById("14").focus();
+					return false;
+				}
+				if (fffNow == 24) {
+					document.getElementById("18").focus();
+					return false;
+				}
+				if (fffNow == 25) {
+					document.getElementById("19").focus();
+					return false;
+				}
+				if (fffNow == 11 || fffNow == 12 || fffNow == 13 || fffNow == 14 || fffNow == 15 || fffNow == 16 || fffNow == 19) {
+					return false;
+				}
+				if (fffNow == 17) {
+					document.getElementById("13").focus();
+					return false;
+				}
+				if (fffNow == 18) {
+					document.getElementById("15").focus();
+					return false;
+				}
+			break;
+			case 40: //xia
+				if (fffNow == 21 || fffNow == 22 || fffNow == 23 || fffNow == 24 || fffNow == 25) {
+					return false;
+				}
+				if (fffNow == 11) {
+					document.getElementById("21").focus();
+					return false;
+				}
+				if (fffNow == 12) {
+					document.getElementById("22").focus();
+					return false;
+				}
+				if (fffNow == 13) {
+					document.getElementById("17").focus();
+					return false;
+				}
+				if (fffNow == 17) {
+					document.getElementById("22").focus();
+					return false;
+				}
+				if (fffNow == 14) {
+					document.getElementById("23").focus();
+					return false;
+				}
+				if (fffNow == 15) {
+					document.getElementById("18").focus();
+					return false;
+				}
+				if (fffNow == 18) {
+					document.getElementById("24").focus();
+					return false;
+				}
+				if (fffNow == 16) {
+					document.getElementById("24").focus();
+					return false;
+				}
+				if (fffNow == 19) {
+					document.getElementById("25").focus();
+					return false;
+				}
+			break;
+			case 37: //zuo
+				if (fffNow == 11) {
+					document.getElementById("19").focus();
+					return false;
+				}
+				if (fffNow == 12) {
+					document.getElementById("11").focus();
+					return false;
+				}
+				if (fffNow == 13) {
+					document.getElementById("12").focus();
+					return false;
+				}
+				if (fffNow == 14) {
+					document.getElementById("13").focus();
+					return false;
+				}
+				if (fffNow == 15) {
+					document.getElementById("14").focus();
+					return false;
+				}
+				if (fffNow == 16) {
+					document.getElementById("15").focus();
+					return false;
+				}
+				if (fffNow == 19) {
+					document.getElementById("16").focus();
+					return false;
+				}
+				if (fffNow == 17) {
+					document.getElementById("12").focus();
+					return false;
+				}
+				if (fffNow == 18) {
+					document.getElementById("14").focus();
+					return false;
+				}
+				if (fffNow == 21) {
+					document.getElementById("25").focus();
+					return false;
+				}
+				if (fffNow == 22) {
+					document.getElementById("21").focus();
+					return false;
+				}
+				if (fffNow == 23) {
+					document.getElementById("22").focus();
+					return false;
+				}
+				if (fffNow == 24) {
+					document.getElementById("23").focus();
+					return false;
+				}
+				if (fffNow == 25) {
+					document.getElementById("24").focus();
+					return false;
+				}
+			break;
+			case 39: //you
+				if (fffNow == 11) {
+					document.getElementById("12").focus();
+					return false;
+				}
+				if (fffNow == 12) {
+					document.getElementById("13").focus();
+					return false;
+				}
+				if (fffNow == 13) {
+					document.getElementById("14").focus();
+					return false;
+				}
+				if (fffNow == 14) {
+					document.getElementById("15").focus();
+					return false;
+				}
+				if (fffNow == 15) {
+					document.getElementById("16").focus();
+					return false;
+				}
+				if (fffNow == 19) {
+					document.getElementById("11").focus();
+					return false;
+				}
+				if (fffNow == 16) {
+					document.getElementById("19").focus();
+					return false;
+				}
+				if (fffNow == 25) {
+					document.getElementById("21").focus();
+					return false;
+				}
+				if (fffNow == 21) {
+					document.getElementById("22").focus();
+					return false;
+				}
+				if (fffNow == 22) {
+					document.getElementById("23").focus();
+					return false;
+				}
+				if (fffNow == 23) {
+					document.getElementById("24").focus();
+					return false;
+				}
+				if (fffNow == 24) {
+					document.getElementById("25").focus();
+					return false;
+				}
+				if (fffNow == 17) {
+					document.getElementById("14").focus();
+					return false;
+				}
+				if (fffNow == 18) {
+					document.getElementById("16").focus();
+					return false;
+				}
+			break;
+			case 1: //shang
+				if (fffNow == 21) {
+					document.getElementById("11").focus();
+					return false;
+				}
+				if (fffNow == 22) {
+					document.getElementById("12").focus();
+					return false;
+				}
+				if (fffNow == 23) {
+					document.getElementById("14").focus();
+					return false;
+				}
+				if (fffNow == 24) {
+					document.getElementById("18").focus();
+					return false;
+				}
+				if (fffNow == 25) {
+					document.getElementById("19").focus();
+					return false;
+				}
+				if (fffNow == 11 || fffNow == 12 || fffNow == 13 || fffNow == 14 || fffNow == 15 || fffNow == 16 || fffNow == 19) {
+					return false;
+				}
+				if (fffNow == 17) {
+					document.getElementById("13").focus();
+					return false;
+				}
+				if (fffNow == 18) {
+					document.getElementById("15").focus();
+					return false;
+				}
+			break;
+			case 2: //xia
+				if (fffNow == 21 || fffNow == 22 || fffNow == 23 || fffNow == 24 || fffNow == 25) {
+					return false;
+	
+				}
+				if (fffNow == 11) {
+					document.getElementById("21").focus();
+					return false;
+				}
+				if (fffNow == 12) {
+					document.getElementById("22").focus();
+					return false;
+				}
+				if (fffNow == 13) {
+					document.getElementById("17").focus();
+					return false;
+				}
+				if (fffNow == 17) {
+					document.getElementById("22").focus();
+					return false;
+				}
+				if (fffNow == 14) {
+					document.getElementById("23").focus();
+					return false;
+				}
+				if (fffNow == 15) {
+					document.getElementById("18").focus();
+					return false;
+				}
+				if (fffNow == 18) {
+					document.getElementById("24").focus();
+					return false;
+				}
+				if (fffNow == 16) {
+					document.getElementById("24").focus();
+					return false;
+				}
+				if (fffNow == 19) {
+					document.getElementById("25").focus();
+					return false;
+				}
+			break;
+			case 3: //zuo
+				if (fffNow == 11) {
+					document.getElementById("19").focus();
+					return false;
+				}
+				if (fffNow == 12) {
+					document.getElementById("11").focus();
+					return false;
+				}
+				if (fffNow == 13) {
+					document.getElementById("12").focus();
+					return false;
+				}
+				if (fffNow == 14) {
+					document.getElementById("13").focus();
+					return false;
+				}
+				if (fffNow == 15) {
+					document.getElementById("14").focus();
+					return false;
+				}
+				if (fffNow == 16) {
+					document.getElementById("15").focus();
+					return false;
+				}
+				if (fffNow == 19) {
+					document.getElementById("16").focus();
+					return false;
+				}
+				if (fffNow == 17) {
+					document.getElementById("12").focus();
+					return false;
+				}
+				if (fffNow == 18) {
+					document.getElementById("14").focus();
+					return false;
+				}
+				if (fffNow == 21) {
+					document.getElementById("25").focus();
+					return false;
+				}
+				if (fffNow == 22) {
+					document.getElementById("21").focus();
+					return false;
+				}
+				if (fffNow == 23) {
+					document.getElementById("22").focus();
+					return false;
+				}
+				if (fffNow == 24) {
+					document.getElementById("23").focus();
+					return false;
+				}
+				if (fffNow == 25) {
+					document.getElementById("24").focus();
+					return false;
+				}
+			break;
+
+			case 4: //you
+				if (fffNow == 11) {
+					document.getElementById("12").focus();
+					return false;
+				}
+				if (fffNow == 12) {
+					document.getElementById("13").focus();
+					return false;
+				}
+				if (fffNow == 13) {
+					document.getElementById("14").focus();
+					return false;
+				}
+				if (fffNow == 14) {
+					document.getElementById("15").focus();
+					return false;
+				}
+				if (fffNow == 15) {
+					document.getElementById("16").focus();
+					return false;
+				}
+				if (fffNow == 19) {
+					document.getElementById("11").focus();
+					return false;
+				}
+				if (fffNow == 16) {
+					document.getElementById("19").focus();
+					return false;
+				}
+				if (fffNow == 25) {
+					document.getElementById("21").focus();
+					return false;
+				}
+				if (fffNow == 21) {
+					document.getElementById("22").focus();
+					return false;
+				}
+				if (fffNow == 22) {
+					document.getElementById("23").focus();
+					return false;
+				}
+				if (fffNow == 23) {
+					document.getElementById("24").focus();
+					return false;
+				}
+				if (fffNow == 24) {
+					document.getElementById("25").focus();
+					return false;
+				}
+				if (fffNow == 17) {
+					document.getElementById("14").focus();
+					return false;
+				}
+				if (fffNow == 18) {
+					document.getElementById("16").focus();
+					return false;
+				}
+			break;
+			case 4096:
+	            history.go(-1);
+				return false;
+            break;
+		}
+	}
+
+//banner start
+	var flag = 0;
+	var bg0 = document.getElementById("L0");
+	var bg1 = document.getElementById("L1");
+	var bg2 = document.getElementById("L2");
+	function img10(b0, t){
+		var w1; 
+		var L1;
+		var t1;
+		var h1; 
+		if(t >21){
+			w1 = 432;
+			L1 = 0;
+			t1 = 143;
+			h1 = 165;
+			b0.style.opacity = 0.8;
+		} else {
+//			w1 = parseInt(b0.style.width)-11.8;
+//			L1 = parseInt(b0.style.left) - 15.3;
+//			t1 = parseInt(b0.style.top) + 2.15;
+//			h1 = parseInt(b0.style.height) - 4.4;
+			w1 = parseInt(b0.style.width)-11;
+			L1 = parseInt(b0.style.left) - 15;
+			t1 = parseInt(b0.style.top) + 2;
+			h1 = parseInt(b0.style.height) - 4;
+		}
+		b0.style.width = w1 + "px";
+		b0.style.left = L1 + "px";
+		b0.style.top = t1 + "px";
+		b0.style.height = h1 + "px";
+		b0.style.zIndex = 8;
+//		console.log(b0.style.width + "  " + b0.style.left + " " + " " + b0.style.top + " " +b0.style.height);
+	}
+	function img21(b0,t){
+		var w1; 
+		var L1;
+		var t1;
+		var h1; 
+		if(t >21){
+			w1 = 668;
+			L1 = 306;
+			t1 = 100;
+			h1 = 253;
+			b0.style.opacity = 1;
+		} else {
+//		  w1 = parseInt(b0.style.width)+11.8;
+//		  L1 = parseInt(b0.style.left) - 27.1;
+//		  t1 = parseInt(b0.style.top) - 2.15;
+//		  h1 = parseInt(b0.style.height) + 4.4;
+		  w1 = parseInt(b0.style.width)+11;
+		  L1 = parseInt(b0.style.left) - 27;
+		  t1 = parseInt(b0.style.top) - 2;
+		  h1 = parseInt(b0.style.height) + 4;
+		  
+		}
+		b0.style.width = w1 + "px";
+		b0.style.left = L1 + "px";
+		b0.style.top = t1 + "px";
+		b0.style.height = h1 + "px";
+		b0.style.zIndex = 9;
+//		console.log(b0.style.width + "  " + b0.style.left + " " + " " + b0.style.top + " " +b0.style.height);
+	//	console.log(w1 + "  " + L1 + " " + " " + t1 + " " +h1)
+	
+	}
+	function img02(b0,t){
+		var L1;
+		if(t >21){
+			L1 = 848;
+			b0.style.opacity = 0.8;
+		} else {
+//		  L1 = parseInt(b0.style.left) + 42.4;
+		  L1 = parseInt(b0.style.left) + 42;
+		 }
+		b0.style.left = L1 + "px";
+//		console.log(b0.style.left);
+		b0.style.zIndex = 8;
+	}
+	var tt = 0;
+//var timer = setInterval(function(){
+//if(tt>21){
+//	clearInterval(timer);
+//	tt = 0;
+//	flag++;
+//} else{
+//	tt+=1;
+//	banner(tt);
+//}
+//
+//},60)
+	
+	timer1 = setInterval(function(){
+		timer = setInterval(function(){
+			if(!clearFlag){
+				clearInterval(timer);
+				return false;
+			}
+			if(tt>21){
+				clearInterval(timer);
+				tt = 0;
+				flag++;
+			} else{
+				tt+=1;
+				banner(tt);
+			}
+		},60)
+	},6000);
+	
+	function banner(t){
+		if(flag>2){
+			flag = 0;
+		}
+	//	console.log("flag: " +flag)
+		switch (flag){
+			case 0: 
+				img02(bg0,t);
+				img10(bg1, t);
+				img21(bg2,t);
+				break;
+			case 1: 
+				img02(bg1,t);
+				img10(bg2,t);
+				img21(bg0,t);
+			
+				break;
+			case 2: 
+				img02(bg2,t);
+				img10(bg0,t);
+				img21(bg1,t);
+				break;
+			default:
+				break;
+		}
+		
+	}
+}
+var truemac,mac;
+function getMac(){
+    //机顶盒类型判断需引入ntv框架
+		var browser = ntv.profile.browser;//用于辨别机顶盒类型  ***该方法待测试 如有问题可将下面方法取出分别应用
+		
+		if(browser == "iPanel"){
+		//高清机顶盒获取mac方法
+			var stbMac = network.ethernets[0].MACAddress;
+		    var Mac = stbMac.split("-");
+		    var num1 = "";
+		    for(i=0;i<Mac.length ;i++ ){ 
+		    truemac = num1+=Mac[i];
+		    }  
+		    return truemac;
+	    }
+
+	    else if(browser == "NGB-H"){
+	    //智能机顶盒方法 ***待测试
+	        var ethernets = Broadband.getAllEthernets();
+			if (ethernets.length > 0) {
+				var ethernet = ethernets[0];
+				mac = ethernet.MACAddress.replace(/-/g, "");
+			} else {
+				mac = ethernet.MACAddress.replace(/-/g, "");
+			}
+			return mac;
+	    }
+
+	    else if(browser == "PCBrowser"){
+	    //pc端方法(写死一条mac地址) 按需要更改
+	         return "98bc5705f8a0";
+	    }
+
+
+}
+
+
+function fff(id){
+    fffNow = id;
+	var abcNow = "abc"+id;
+	document.getElementById(abcNow).style.display="block";	
+}
+function fff1(id){
+    fffNow = id;
+	var abcNow = "abc"+id;
+	document.getElementById(abcNow).style.display="none";	
+}
+function clear(){
+		clearInterval(timer1);
+		clearFlag = false;
+	}
+function a11(){
+	clear();
+	window.location.href = "zhengfuxinxi/indexzf.html";
+}
+function a12(){
+	clear();
+	window.location.href = "fangyuanrenzheng/fhhouse_list/fl.html";
+}
+function a13(){
+	clear();
+	window.location.href = "chanquan-fangkuan/chanquandiaocha.html";
+}
+function a14(){
+	clear();
+	window.location.href = "gujia/index.html";
+}
+function a15(){
+	clear();
+//	AjaxUserShouji();
+	window.location.href = "shenghuojiaofei/xiazaibangka.html";
+}
+function a21(){
+	clear();
+	window.location.href = "fangchankaifashang/developer_list/dl.html";
+}
+function a23(){
+	clear();
+	window.location.href = "jingjiren/jingjiren_index.html";
+}
+function a25(){
+	clear();
+	window.location.href = "pinggushi/pinggushi_index.html";
+}
+
+function baoxian(){
+	window.location.href = "../../taipingInsurance/index.html?from=shanghaiEstate";
+}
+function shenghuo(){
+	
+}
+</script>
+
+</head>
+<body >
+<!--<table>-->
+<div style="width:1280px;height:720px;position:absolute;top:0px;left:0px;">
+<a id="11" href="javascript:a11();" style="position:absolute;top:0px;left:10px;" onfocus="fff(11);" onblur="fff1(11)">&nbsp </a>  <!--zhengfuxinxi-index.html-->
+<a id="12" href="javascript:a12();" style="position:absolute;top:0px;left:25px;" onfocus="fff(12)" onblur="fff1(12)">&nbsp </a>
+<a id="13" href="javascript:a13();" style="position:absolute;top:0px;left:30px;" onfocus="fff(13)" onblur="fff1(13)">&nbsp </a>
+<a id="14" id="shjf" href="javascript:a14();" style="position:absolute;top:0px;left:40px;" onfocus="fff(14)" onblur="fff1(14)">&nbsp </a>
+<a id="15" href="javascript:a15();" style="position:absolute;top:0px;left:50px;" onfocus="fff(15)" onblur="fff1(15)">&nbsp </a>
+<a id="16" href="javascript:baoxian();" style="position:absolute;top:0px;left:60px;" onfocus="fff(16)" onblur="fff1(16)">&nbsp </a>
+<a id="17" href="chanquan-fangkuan/fangkuanjianguan.html" style="position:absolute;top:0px;left:70px;" onfocus="fff(17)" onblur="fff1(17)">&nbsp </a>
+<a id="18" href="shenghuojiaofei.html" style="position:absolute;top:0px;left:80px;" onfocus="fff(18)" onblur="fff1(18)">&nbsp </a>
+<a id="19" href="yaokongbaoshipin.html" style="position:absolute;top:0px;left:90px;" onfocus="fff(19)" onblur="fff1(19)">&nbsp </a>
+
+<a id="21" href="javascript:a21();" style="position:absolute;top:10px;left:10px;" onfocus="fff(21)" onblur="fff1(21)">&nbsp </a>
+<a id="22" href="fangchanjingjijigou/index.html" style="position:absolute;top:10px;left:20px;" onfocus="fff(22)" onblur="fff1(22)">&nbsp </a>
+<a id="23" href="javascript:a23();" style="position:absolute;top:10px;left:30px;" onfocus="fff(23)" onblur="fff1(23)">&nbsp </a>
+<a id="24" href="fangchanpinggujigou/index.html" style="position:absolute;top:10px;left:40px;" onfocus="fff(24)" onblur="fff1(24)">&nbsp </a>
+<a id="25" href="javascript:a25();" style="position:absolute;top:10px;left:50px;" onfocus="fff(25)" onblur="fff1(25)">&nbsp </a>
+<!--<a id="26" href="fmilk1.html" style="position:absolute;top:10px;left:60px;" onfocus="fff(26)" onblur="fff1(26)">&nbsp </a>-->
+
+<img style="width:1280px;height:720px;position:absolute;top:0px;left:0px;" src="img/bg_011.png">
+
+<div id="fffnow" style="width:800px;height:50px;position:absolute;left:200px;top:50px;z-index:999;background-color:#ffffff;display:none;">1111111111</div>
+
+<div style="position: absolute;left: 0;top: 0;width:1280px; height:358px;overflow: hidden;z-index: 10000;">
+
+<div id="L0" style="position:absolute;overflow: hidden; width:432px; height:165px; top:143px; left:0px; opacity:0.8; z-index: 8;" class="duration">
+
+  <div id="b_11" style="position:absolute; width:100%; height:100%; top:0px; left:0px;"><img id="bg_0" src="img/00_banner_3.jpg" width="100%"/></div>
+
+  <div  style="position:absolute; width:100%; height:100%;top:0px; left:0px;" id="inside_0">
+
+    <table width="100%" height="100%"  border="0" cellspacing="0" cellpadding="0">
+
+      <tr>
+
+        <td align="center" ></td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+  <div  style="position:absolute; width:173px; height:19px; top:4px; left:1px; font-size:16px; color:#fff; padding-left:10px; line-height:19px" id="text_0"></div>
+
+</div>
+
+
+
+
+<div id="L1" style="position:absolute;overflow: hidden; width:668px; height:253px; top:100px; left:306px; opacity:1; z-index: 9;" class="duration" >
+
+  <div id="b_22"  style="position:absolute; width:100%; height:100%; top:0px; left:0px;" class="picRolling"><img id="bg_1" src="img/00_banner_1.jpg" width="100%"/></div>
+
+  <div  style="position:absolute;width:100%; height:100%; top:0px; left:0px;" id="inside_1">
+
+    <table width="100%" height="100%"  border="0" cellspacing="0" cellpadding="0">
+
+      <tr>
+
+        <td align="center" ></td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+  <div  style="position:absolute; width:668px; height:19px; top:9px; left:6px; font-size:24px; color:#fff; padding-left:0px; line-height:35px" id="text_1"></div>
+
+</div>
+
+
+<div id="L2" style="position:absolute;overflow: hidden; width:432px; height:165px; top:143px; left:848px; opacity:0.8; z-index: 8;" class="duration">
+
+  <div id="b_33" style="position:absolute;  width:100%; height:100%; top:0px; left:0px;" class="picRolling"><img id="bg_2" src="img/00_banner_2.jpg" width="100%"/></div>
+
+  <div  style="position:absolute;  width:100%; height:100%; top:0px; left:0px;" id="inside_2">
+
+    <table width="100%" height="100%"  border="0" cellspacing="0" cellpadding="0">
+
+      <tr>
+
+        <td align="center" ></td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+  <div  style="position:absolute; width:173px; height:19px; top:4px; left:1px; font-size:16px; color:#fff; padding-left:10px; line-height:19px" id="text_2"></div>
+
+</div>
+
+  
+
+</div>
+<!--<div id="L3" style="position:absolute; width:435px; height:162px; top:112px; left:272px; opacity:0; z-index: 0;" class="duration">
+
+  <div  style="position:absolute; width:432px; height:165px; top:0px; left:0px;" class="picRolling"> <img id="bg_3" src="img/00_banner_3.jpg" width="100%" height="100%"/> </div>
+
+  <div  style="position:absolute; width:432px; height:165px; top:0px; left:0px;" id="inside_3">
+
+    
+
+    <table width="100%" height="100%"  border="0" cellspacing="0" cellpadding="0">
+
+      <tr>
+
+        <td align="center" ></td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+  <div  style="position:absolute; width:129px; height:14px; top:5px; left:2px; font-size:12px; color:#fff; padding-left:10px; line-height:14px" id="text_3"></div>
+
+</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div style="width:1280px;height:720px;position:absolute;top:0px;left:0px;">-->
+
+	<img id="abc11" style="width:188px;height:230px;position:absolute;top:362px;left:72px;z-index:9999;display:none;" src="img/00_focused_tab.png">
+	<img id="abc12" style="width:188px;height:230px;position:absolute;top:362px;left:230px;z-index:9999;display:none;" src="img/00_focused_tab.png">
+	<img id="abc13" style="width:188px;height:131px;position:absolute;top:362px;left:388px;z-index:9999;display:none;" src="img/00_focused_tab2.png">
+	<img id="abc14" style="width:180px;height:230px;position:absolute;top:363px;left:550px;z-index:9999;display:none;" src="img/00_focused_tab.png">
+	<img id="abc15" style="width:188px;height:131px;position:absolute;top:362px;left:704px;z-index:9999;display:none;" src="img/00_focused_tab2.png">
+	<img id="abc16" style="width:188px;height:230px;position:absolute;top:362px;left:862px;z-index:9999;display:none;" src="img/00_focused_tab.png">
+	<img id="abc17" style="width:188px;height:131px;position:absolute;top:462px;left:388px;z-index:9999;display:none;" src="img/00_focused_tab2.png">
+	<img id="abc18" style="width:188px;height:131px;position:absolute;top:462px;left:704px;z-index:9999;display:none;" src="img/00_focused_tab2.png">
+	<img id="abc19" style="width:180px;height:230px;position:absolute;top:363px;left:1024px;z-index:9999;display:none;" src="img/00_focused_tab.png">
+	
+
+	<img id="abc21" style="width:245px;height:82px;position:absolute;top:592px;left:80px;z-index:999;display:none;" src="img/00_focused_choice.png">
+	<img id="abc22" style="width:245px;height:82px;position:absolute;top:592px;left:298px;z-index:999;display:none;" src="img/00_focused_choice.png">
+	<img id="abc23" style="width:245px;height:82px;position:absolute;top:592px;left:517px;z-index:999;display:none;" src="img/00_focused_choice.png">
+	<img id="abc24" style="width:245px;height:82px;position:absolute;top:592px;left:736px;z-index:999;display:none;" src="img/00_focused_choice.png">
+	<img id="abc25" style="width:245px;height:82px;position:absolute;top:592px;left:957px;z-index:999;display:none;" src="img/00_focused_choice.png">
+<!--</div>-->
+
+</div>	
+<!--</table>-->
+<!--<div id="wwww" style="position: absolute;left:100px;top:40px;color:#FFFFFF;">1</div>-->
+</body>
+
+</html>
+

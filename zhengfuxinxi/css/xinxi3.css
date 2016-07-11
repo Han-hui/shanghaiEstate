@@ -1,0 +1,71 @@
+@charset "utf-8";
+body{
+	background-color: transparent;
+}
+#aa a{
+	position: absolute;
+	top:10px;
+}
+#a1{
+	left:20px;
+}
+#a2{
+	left:80px;
+}
+#bgImg{
+	position: absolute;
+	left:0;
+	top:0;
+}
+.header span{
+	position: absolute;
+	top:50px;
+	color:#fff;
+	font-family: "黑体";
+	font-weight: bold;
+}
+#title{
+	left:95px;
+	font-size: 28px;
+}
+#data{
+	left:1080px;
+	font-size: 20px;
+	color:#ccc;
+}
+#fang{
+	position: absolute;
+	left:452px;
+	top:135px;
+}
+.con span{
+	position: absolute;
+	left:95px;
+	top:160px;
+	color:#fff;
+	width:1090px;
+	text-indent: 42px;
+	line-height:32px;
+}
+#news1{
+	top:470px;
+}
+#news2{
+	top:503px;
+}
+#img1{
+	position: absolute;
+	left:75px;
+	top:90px;
+	width:101px;
+	height:50px;
+	display: none;
+}
+#img2{
+	position: absolute;
+	left:143px;
+	top:90px;
+	width:101px;
+	height:50px;
+	display: none;
+}

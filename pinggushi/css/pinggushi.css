@@ -1,0 +1,525 @@
+#bkg{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+#an{
+	position:absolute;
+	left:244px;
+	top:76px;
+}
+#mbwz{
+	font-size:21px;
+	font-family: "微软雅黑";
+	color:#db6d8a;
+	position:absolute;
+	left:256px;
+	top:105px;
+}
+#page{
+	position:absolute;
+	left:1054px;
+	top:108px;
+	color:#b8bec1;
+	font-size:17px;
+	font-family:"微软雅黑";
+	display: none;
+}
+.fenlei{
+	font-size:25px;
+	font-family: "微软雅黑";
+	color:#fbdde5;
+}
+#juli{
+	position:absolute;
+	left:260px;
+	top:50px;
+	color:#ffffff;
+}
+#shengwang{
+	position:absolute;
+	left:385px;
+	top:50px;
+}
+#manyidu{
+	position:absolute;
+	left:554px;
+	top:50px;
+}
+#bjk1{
+	position:absolute;
+	left:80px;
+	top:130px;
+}
+#bjk2{
+	position:absolute;
+	left:449px;
+	top:130px;
+}
+#bjk3{
+	position:absolute;
+	left:818px;
+	top:130px;
+}
+#bjk4{
+	position:absolute;
+	left:80px;
+	top:399px;
+}
+#bjk5{
+	position:absolute;
+	left:449px;
+	top:399px;
+}
+#bjk6{
+	position:absolute;
+	left:818px;
+	top:399px;
+}
+.wd{
+	color:#041a47;
+	font-size:25px;
+	font-family:"微软雅黑";
+}
+#name1{
+	position:absolute;
+	left:256px;
+	top:167px;
+}
+#name2{
+	position:absolute;
+	left:624px;
+	top:167px;
+}
+#name3{
+	position:absolute;
+	left:995px;
+	top:167px;
+}
+#name4{
+	position:absolute;
+	left:256px;
+	top:436px;
+}
+#name5{
+	position:absolute;
+	left:623px;
+	top:436px;
+}
+#name6{
+	position:absolute;
+	left:995px;
+	top:436px;
+}
+#jjrzp1{
+	position:absolute;
+	left:119px;
+	top:168px;
+}
+#jjrzp2{
+	position:absolute;
+	left:488px;
+	top:168px;
+}
+#jjrzp3{
+	position:absolute;
+	left:857px;
+	top:168px;
+}
+#jjrzp4{
+	position:absolute;
+	left:119px;
+	top:438px;
+}
+#jjrzp5{
+	position:absolute;
+	left:488px;
+	top:438px;
+}
+#jjrzp6{
+	position:absolute;
+	left:857px;
+	top:438px;
+}
+#jigou1{
+	position:absolute;
+	left:256px;
+	top:204px;
+	font-size:18px;
+	
+}
+#jigou2{
+	position:absolute;
+	left:624px;
+	top:204px;
+	font-size:18px;
+}
+#jigou3{
+	position:absolute;
+	left:993px;
+	top:204px;
+	font-size:18px;
+}
+#jigou4{
+	position:absolute;
+	left:254px;
+	top:474px;
+	font-size:18px;
+}
+#jigou5{
+	position:absolute;
+	left:624px;
+	top:474px;
+	font-size:18px;
+}
+#jigou6{
+	position:absolute;
+	left:993px;
+	top:474px;
+	font-size:18px;
+}
+#star1{
+	position:absolute;
+	left:326px;
+	top:253px;
+}
+#st1{
+	position:absolute;
+	left:326px;
+	top:281px;
+}
+#star2{
+	position:absolute;
+	left:695px;
+	top:253px;
+}
+#st2{
+	position:absolute;
+	left:695px;
+	top:281px;
+}
+#star3{
+	position:absolute;
+	left:1064px;
+	top:253px;
+}
+#st3{
+	position:absolute;
+	left:1064px;
+	top:281px;
+}
+#star4{
+	position:absolute;
+	left:326px;
+	top:523px;
+}
+#st4{
+	position:absolute;
+	left:326px;
+	top:551px;
+}
+#star5{
+	position:absolute;
+	left:695px;
+	top:523px;
+}
+#st5{
+	position:absolute;
+	left:695px;
+	top:551px;
+}
+#star6{
+	position:absolute;
+	left:1064px;
+	top:523px;
+}
+#st6{
+	position:absolute;
+	left:1064px;
+	top:551px;
+}
+.inf{
+	color:#999999;
+	font-size:15px;
+	font-family:"微软雅黑";
+	
+}
+#zybk1{
+	position:absolute;
+	left:120px;
+	top:335px;
+}
+#zyb1{
+	color:#666666;
+}
+#lxfs1{
+	position:absolute;
+	left:120px;
+	top:363px;
+}
+#lxf1{
+	color:#666666;
+}
+
+#zybk2{
+	position:absolute;
+	left:488px;
+	top:335px;
+}
+#zyb2{
+	color:#666666;
+}
+#lxfs2{
+	position:absolute;
+	left:488px;
+	top:363px;
+}
+#lxf2{
+	color:#666666;
+}
+#zybk3{
+	position:absolute;
+	left:857px;
+	top:335px;
+}
+#zyb3{
+	color:#666666;
+}
+#lxfs3{
+	position:absolute;
+	left:857px;
+	top:363px;
+}
+#lxf3{
+	color:#666666;
+}
+
+#zybk4{
+	position:absolute;
+	left:120px;
+	top:603px;
+}
+#zyb4{
+	color:#666666;
+}
+#lxfs4{
+	position:absolute;
+	left:120px;
+	top:633px;
+}
+#lxf4{
+	color:#666666;
+}
+#zybk5{
+	position:absolute;
+	left:488px;
+	top:603px;
+}
+#shouye{
+	position:absolute;
+	left:90px;
+	top:100px;
+	display:none;
+}
+#fanhui{
+	position:absolute;
+	left:158px;
+	top:100px;
+	display:none;
+}
+#shangyiye{
+	position:absolute;
+	left:951px;
+	top:100px;
+	display:none;
+}
+#xiayiye{
+	position:absolute;
+	left:1110px;
+	top:100px;
+	display:none;
+}
+#zyb5{
+	color:#666666;
+}
+#lxfs5{
+	position:absolute;
+	left:488px;
+	top:633px;
+}
+#lxf5{
+	color:#666666;
+}
+#zybk6{
+	position:absolute;
+	left:857px;
+	top:603px;
+}
+#zyb6{
+	color:#666666;
+}
+#lxfs6{
+	position:absolute;
+	left:857px;
+	top:633px;
+}
+#lxf6{
+	color:#666666;
+}
+#bk2{
+	position:absolute;
+	left:301px;
+	top:147px;
+}
+#zygw{
+	position:absolute;
+	left:95px;
+	top:48px;
+	font-size:30px;
+	color:#ffffff;
+	font-family:"微软雅黑";
+}
+#zygwjg{
+	font-size:22px;
+}
+#phnum{
+	position:absolute;
+	left:375px;
+	top:166px;
+	font-size:30px;
+	color:#ffffff;
+	font-family:"Arial"
+}
+.xinxi{
+	font-size:35px;
+	color:#999999;
+	font-family:"微软雅黑";
+	font-size:22px;
+}
+#ssmd{
+	position:absolute;
+	left:326px;
+	top:217px;
+}
+#zzdj{
+	position:absolute;
+	left:667px;
+	top:217px;
+}
+#zybk{
+	position:absolute;
+	left:326px;
+	top:267px;
+}
+#cynx{
+	position:absolute;
+	left:667px;
+	top:267px;
+}
+#md1{
+	color:#ffffff;
+}
+#dj{
+	color:#ffffff;
+}
+#bk{
+	color:#ffffff;
+}
+#nx{
+	color:#ffffff;
+}
+#jjrphot{
+	position:absolute;
+	left:95px;
+	top:147px;
+	width: 177px;
+	height:201px;
+}
+#part1{
+	position:absolute;
+	left:323px;
+	top:364px;	
+}
+#part2{
+	position:absolute;
+	left:661px;
+	top:364px;	
+}
+#sta1{
+	position:absolute;
+	height:28px;
+	width:170px;
+	left:20px;
+	top:52px;
+}
+#sta2{
+	position:absolute;
+	height:28px;
+	width:170px;
+	left:20px;
+	top:52px;
+}
+#sta1{
+	position:absolute;
+	height:28px;
+	width:172px;
+	left:0px;
+	top:0px;
+}
+#sta2{
+	position:absolute;
+	height:28px;
+	width:172px;
+	left:0px;
+	top:0px;
+}
+#stt1{
+	position:absolute;
+	left:4px;
+	top:37px;
+}
+#stt2{
+	position:absolute;
+	left:4px;
+	top:37px;
+}
+.starnum{
+	color:#868675;
+	font-family:"Arial";
+	font-size:14px;
+}
+#totsta1{
+	position:absolute;
+	left:183px;
+	top:5px;
+	font-size:20px;
+}
+#totsta2{
+	position:absolute;
+	left:183px;
+	top:5px;
+	font-size:20px;
+}
+#clas1{
+	position:absolute;
+	left:100px;
+	top:36px;
+}
+#clas2{
+	position:absolute;
+	left:100px;
+	top:36px;
+}
+#adve1{
+	position:absolute;
+	left:95px;
+	top:521px;
+}
+#adve2{
+	position:absolute;
+	left:651px;
+	top:521px;
+}
+#jjr1,#jjr2,#jjr3,#jjr4,#jjr5,#jjr6{
+	display: none;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="page-view-size" content="1280*720">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/indexzf.css"/>
+		<script src="js/indexzf.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="aa">
+			<a href="../shanghaidichanNew/index.html" id="a1" onfocus="part(1)" onblur="part1(1)">index</a>
+			<a href="../shanghaidichanNew/index.html" id="a2" onfocus="part(2)" onblur="part1(2)">back</a>
+			<a href="javascript:preAjax();" id="a3" onfocus="part(3)" onblur="part1(3)">prepage</a>
+			<a href="javascript:nextAjax();" id="a4" onfocus="part(4)" onblur="part1(4)">nextpage</a>
+			<a href="javascript:x1();" id="a5" onfocus="part(5)" onblur="part1(5)">111</a>
+			<a href="javascript:x2();" id="a6" onfocus="part(6)" onblur="part1(6)">222</a>
+			<a href="javascript:x3();" id="a7" onfocus="part(7)" onblur="part1(7)">333</a>
+		</div>
+		<script type="text/javascript">
+			var as = document.getElementById("aa").getElementsByTagName("a");
+			var asLength = as.length;
+			addIndex(as, asLength);
+		</script>
+		<img id="bgImg" src="images/bg.png"/>
+		<div class="gongneng" id="gongneng">
+			<div id="preCon" class="f16">上一页</div>
+			<div id="num" class="f16"></div>
+			<div id="nextCon" class="f16">下一页</div>
+			<img src="images/02.png" alt="" id="pre" />
+			<img src="images/02.png" alt="" id="next" />
+		</div>
+		<div class="con">
+			<div id="t1" class="title">上海市地税局最新发布《关于缴纳2014年度个</div><div class="f18" id="t1Date">2015-11-04</div>
+			<div id="tt1" class="f20">
+				上海市地税局最新发布《关于缴纳2014年度个人住房房产税有关项的提示》，要求12月31日前应缴纳当年度个人住房房产税…
+			</div>
+			<div id="t2" class="title">上海市地税局最新发布《关于缴纳2014年度个</div><div class="f18" id="t2Date">2015-11-04</div>
+			<div id="tt2" class="f20">
+				上海市地税局最新发布《关于缴纳2014年度个人住房房产税有关项的提示》，要求12月31日前应缴纳当年度个人住房房产税…
+			</div>
+			<div id="t3" class="title">上海市地税局最新发布《关于缴纳2014年度个</div><div class="f18" id="t3Date">2015-11-04</div>
+			<div id="tt3" class="f20">
+				上海市地税局最新发布《关于缴纳2014年度个人住房房产税有关项的提示》，要求12月31日前应缴纳当年度个人住房房产税…
+			</div>
+		</div>
+		<div class="conImg">
+			<img src="images/04.png" alt="" id="ig1"/>
+			<img src="images/04.png" alt="" id="ig2" />
+			<img src="images/04.png" alt="" id="ig3" />
+			<img src="images/04.png" alt="" id="ig4" />
+			<img src="images/01.png" alt="" id="img1"/>
+			<img src="images/03.png" id="im1"/>
+			<img src="images/01.png" alt="" id="img2" />
+			<img src="images/03.png" id="im2"/>
+			<img src="images/01.png" alt="" id="img3" />
+			<img src="images/03.png" id="im3"/>
+		</div>
+		<!--<div id="test" style = "position: absolute; left:100px; top:100px; color: #fff;font-size: 30px;"></div>-->
+	</body>
+</html>

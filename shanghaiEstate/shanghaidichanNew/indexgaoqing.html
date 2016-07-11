@@ -1,0 +1,1431 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="page-view-size" content="1280*720">
+
+<title>�����תģʽ</title>
+
+<style>
+
+.c1 {
+
+	border:1px solid #000000;
+
+}
+
+.duration{-webkit-transition-duration:200ms;}
+
+.icons img{ position:relative; float:left;}
+
+.icons{top:335px;position:relative;left:85px; width:1150px;height:100px;}
+
+.icons2{top:370px;position:relative;left:0px;width:1200px;height:100px;}
+
+.icons3{top:605px;position:relative;left:0px;width:1200px;height:100px;z-index:999;}
+
+</style>
+
+<script src="data.js"></script>
+<script type="text/javascript" src="js/1common.js"></script>
+         <script type="text/javascript" src="js/2core.js"></script>
+		 <script type="text/javascript" src="js/3key.js"></script>
+		 <script type="text/javascript" src="js/4navigation.js"></script> 
+		 <script type="text/javascript" src="js/5page.js"></script>
+		 <script type="text/javascript" src="js/6ipanel.js"></script>
+		 <script type="text/javascript" src="js/6ngb_h.js"></script>
+		 <script type="text/javascript" src="js/6pc.js"></script>
+		 <script type="text/javascript" src="js/6shdv.js"></script>
+		 <script type="text/javascript" src="js/7msg.js"></script>
+		 <script type="text/javascript" src="js/8stb.js"></script>
+		 <script type="text/javascript" src="js/10ocn_media_player.js"></script>
+
+<script type="text/javascript">
+var fffNow;
+//<![CDATA[
+window.onload = function(){
+             document.onsystemevent = grabEvent1;
+
+             document.onkeypress = grabEvent1;
+
+             document.onirkeypress = grabEvent1;
+
+             function grabEvent1(event){
+
+	         var val = event.which;
+
+	        // iPanel.debug("index.htm val = " + val);
+
+	         switch(val){
+			
+		   case 1:
+            if(fffNow==21){
+			document.getElementById("11").focus();
+			return false;
+			}	
+
+			if(fffNow==22){
+			document.getElementById("12").focus();
+			return false;
+			}
+
+			if(fffNow==23){
+			document.getElementById("14").focus();
+			return false;
+			}
+
+			if(fffNow==24){
+			document.getElementById("18").focus();
+			return false;
+			}	
+
+			if(fffNow==25){
+			document.getElementById("16").focus();
+			return false;
+			}				
+
+            if(fffNow==11||fffNow==12||fffNow==13||fffNow==14||fffNow==15||fffNow==16||fffNow==19){
+			return false;
+			}	
+
+			if(fffNow==17){
+			document.getElementById("13").focus();
+			return false;
+			}	
+
+			if(fffNow==18){
+			document.getElementById("15").focus();
+			return false;
+			}		
+		    break;
+			
+		   case 2:
+           if(fffNow==21||fffNow==22||fffNow==23||fffNow==24||fffNow==25){
+		   return false;
+
+		    }	
+           	
+
+           if(fffNow==11){
+			document.getElementById("21").focus();
+			return false;
+			}	
+
+			if(fffNow==12){
+			document.getElementById("22").focus();
+			return false;
+			}
+
+			if(fffNow==13){
+			document.getElementById("17").focus();
+			return false;
+			}
+
+			if(fffNow==17){
+			document.getElementById("22").focus();
+			return false;
+			}
+
+			if(fffNow==14){
+			document.getElementById("23").focus();
+			return false;
+			}		
+
+			if(fffNow==15){
+			document.getElementById("18").focus();
+			return false;
+			}	
+
+			if(fffNow==18){
+			document.getElementById("24").focus();
+			return false;
+			}	
+
+			if(fffNow==16){
+			document.getElementById("25").focus();
+			return false;
+			}		  
+		   
+		    if(fffNow==19){
+			document.getElementById("25").focus();
+			return false;
+			}		
+		   break;
+
+
+	        case 3:
+
+	        if(fffNow==11){
+			document.getElementById("19").focus();
+			return false;
+			}	
+
+			if(fffNow==21){
+			document.getElementById("25").focus();
+			return false;
+			}	
+
+			if(fffNow==17){
+			document.getElementById("12").focus();
+			return false;
+			}	
+
+			if(fffNow==18){
+			document.getElementById("14").focus();
+			return false;
+			}	
+		  	
+		  	if(fffNow==19){
+			document.getElementById("16").focus();
+			return false;
+			}
+		  	
+			break;
+
+		    case 4:
+
+		    if(fffNow==16){
+			document.getElementById("19").focus();
+			return false;
+			}	
+
+			if(fffNow==25){
+			document.getElementById("21").focus();
+			return false;
+			}	
+
+			if(fffNow==17){
+			document.getElementById("14").focus();
+			return false;
+			}	
+
+			if(fffNow==18){
+			document.getElementById("16").focus();
+			return false;
+			}	
+			
+			 if(fffNow==19){
+			document.getElementById("11").focus();
+			return false;
+			}	
+			
+			break;
+			
+		   
+			
+}
+}
+
+
+  window.setInterval("changePos(1)",8000);
+  var currentRow = 2;
+  var arr1=new Array("img/gujia02.png","img/jingjiren02.png","img/tuijian02.png");
+  var arr2=new Array("img/gujia01.png","img/jingjiren01.png","img/tuijian01.png");
+ 
+  var oInput1 = document.getElementById("main");
+  var oInput2 = document.getElementById("img1");
+  var oInput3 = document.getElementById("img2");
+  oInput3.focus();
+  
+  var icon1 = document.getElementById("icon2");
+  var aLi = icon1.children;
+    
+	var cirNow = 0;
+	        var changebutton = function (num) {
+			 num = cirNow = num < 0 ? 2 : num;
+			 num = cirNow = num > 2 ? 0 : num;
+			 
+			  for (var i = 0, l = 3; i < l; i++) {
+				if (num == i) {
+                        document.getElementById("button1").src = arr1[i];
+						document.getElementById("button2").src = arr2[i];
+                    }
+                    else {
+                        
+                    } 
+			}
+          }
+		
+		function button(){
+		cirNow++;
+		changebutton(cirNow);
+		}
+       
+	
+		window.setInterval(function(){changePos(1);button();},6000);
+		
+		
+    var iNow = 0;
+            var toActive = function (num) {
+                num = iNow = num < 0 ? aLi.length - 1 : num;
+				num = iNow = num > aLi.length - 1 ? 0 : num;
+
+                for (var i = 0, l = aLi.length; i < l; i++) {
+                    if (num == i) {
+                        aLi[i].focus();
+                    }
+                    else {
+                        
+                    }
+                }
+            }
+			
+			
+
+}
+
+
+
+//]]>
+
+
+var pathHead = window.location.href.substring(0,window.location.href.lastIndexOf("/"))+ "/";
+
+var keys=[{name:"��ҳ", fun:function(){window.location.href = pathHead + "index.htm";}},
+
+		  {name:"����",fun:doSelect_2},
+
+		  {name:"��ͼģʽ", fun:function(){window.location.href = pathHead + "viewMode.htm";}}
+
+		 ];
+
+//iPanel.eventFrame.rTimeInfo.initData(keys);//��ʾ��Ϣ
+
+if (typeof(iPanel.getGlobalVar("albumPos0")) == "undefined") {
+
+	iPanel.setGlobalVar("albumPos0", 0);
+
+}
+
+if (typeof(iPanel.getGlobalVar("albumPos1")) == "undefined") {
+
+	iPanel.setGlobalVar("albumPos1", 0);
+
+}
+
+if (typeof(iPanel.getGlobalVar("albumPos2")) == "undefined") {
+
+	iPanel.setGlobalVar("albumPos2", 0);
+
+}
+
+var menuPos = iPanel.getGlobalVar("albumPos0");
+
+var pagePos = iPanel.getGlobalVar("albumPos1");
+
+
+
+var dataInfo = {
+
+	divIdArr:[],
+
+	bgIdArr:[],
+
+	insideIdArr:[],
+
+	textIdArr:[],
+
+	picIdArr:[],
+
+	allPic:view_3d,
+
+	focusPic:"",
+
+	noFocusPic:"",
+
+};
+
+var documentArr = {
+
+	divIdArr:["L0","L1","L2","L3"],
+
+	bgIdArr:["bg_0","bg_1","bg_2","bg_3"],
+
+	insideIdArr:["inside_0","inside_1","inside_2","inside_3"],
+
+	textIdArr:["text_0","text_1","text_2","text_3"],
+
+	picIdArr:["pic_0","pic_1","pic_2","pic_3"]
+
+};
+
+
+
+var picPosInfo = {
+
+	firstPos:{top:"143px", left:"0px"},
+
+	lastPos:{top:"143px", left:"848px"},	
+
+	firstStatus:{top:"100px", left:"306px"},	
+
+	endStatus:{top:"100px", left:"306px"}	
+
+};
+
+
+
+var dataLength = dataInfo.allPic.length;
+
+var listLength = documentArr.divIdArr.length;
+
+
+
+var picDataPos = menuPos;
+
+var focusPos = 2;
+
+var picObj = null;
+
+var duration = "200ms";
+
+
+
+
+/*
+document.onsystemevent = grabEvent;
+
+document.onkeypress = grabEvent;
+
+document.onirkeypress = grabEvent;
+
+function grabEvent(event){
+
+	var val = event.which;
+
+	iPanel.debug("index.htm val = " + val);
+
+	switch(val){
+
+		case 3:
+
+			changePos(-1);
+
+			break;
+
+		case 4:
+
+			changePos(1);
+
+			break;
+
+		case 13:
+
+			doSelect();
+
+			break;
+
+		case 561:
+
+		case 567:
+
+			iPanel.debug("------------------------1------00");
+
+			iPanel.eventFrame.rTimeInfo.display();
+
+			iPanel.debug("-------------------------2-----00");
+
+			break;
+
+		case 339:
+
+			return 1;
+
+			break;
+
+		case 340:
+
+			//window.location.href = "index.htm";
+
+			//window.location.href = "http://10.27.65.220/index.asp?SrvType=HDWEBEPG";
+
+			iPanel.eventFrame.loading_ip_index();
+
+			break;
+
+		case 513:
+
+			return 1;
+
+			break;
+
+	}
+
+	return 0;
+
+}
+
+*/
+
+function init(){
+
+
+
+	iPanel.debug("luwq0--------------------------4");
+
+	setDocument();
+
+	iPanel.debug("luwq0--------------------------3");
+
+	initMoveObj();
+
+	iPanel.debug("luwq0--------------------------2");
+
+	showPic();
+
+	iPanel.debug("luwq0--------------------------1");
+
+	showText();
+
+	iPanel.debug("luwq0--------------------------0");
+
+	
+
+}
+
+function setStyle(x)
+{
+document.getElementById(x).style.border="10px solid #ffffff"
+}
+
+function setDocument(){
+
+	for(var i = 0; i < listLength; i++){
+
+		dataInfo.divIdArr[i] = $(documentArr.divIdArr[i]);
+
+		dataInfo.bgIdArr[i] = $(documentArr.bgIdArr[i]);
+
+		dataInfo.picIdArr[i] = $(documentArr.picIdArr[i]);
+
+		dataInfo.textIdArr[i] = $(documentArr.textIdArr[i]);
+
+		dataInfo.insideIdArr[i] = $(documentArr.insideIdArr[i]);
+
+	}
+
+}
+
+
+
+function showPic(){
+
+	for(var i = 0; i < listLength; i++){
+
+		iPanel.debug("---i ="+i+"---dataInfo.allPic[(picDataPos + i - 4 + dataLength)%dataLength] ="+dataInfo.allPic[(picDataPos + i - 4 + dataLength)%dataLength].src);
+
+		iPanel.debug("---"+dataInfo.picIdArr[i].src);
+
+		if(i == 3){
+
+		dataInfo.picIdArr[i].src = "";
+
+			}else{
+
+		dataInfo.picIdArr[i].src = dataInfo.allPic[(picDataPos + i - 2 + dataLength)%dataLength].src; 
+
+	}
+
+	}
+
+	showInfo();
+
+}
+
+
+
+function showText(){
+
+	for(var i = 0; i < listLength; i++){
+
+		//iPanel.debug("luwq---------------showText-----------i= "+i);
+
+		if(i == 3){
+
+				dataInfo.textIdArr[i].innerText = "";	
+
+		}else{
+
+		dataInfo.textIdArr[i].innerText = dataInfo.allPic[(picDataPos + i - 2 + dataLength)%dataLength].name; 
+
+	}
+
+		//iPanel.debug("luwq---------------showText333----------- ");
+
+	}
+
+}
+
+
+
+function initMoveObj(){
+
+	picObj = new loopList({dataSize:dataLength, focusPos:focusPos, position:picDataPos, duration:duration, arrayList:documentArr.divIdArr, insideList:documentArr.insideIdArr,textIdList:documentArr.textIdArr,  picIdList:documentArr.picIdArr, infoFlag:1});
+
+	picObj.setDocumentObj();
+
+	picObj.posInfo = picPosInfo;
+
+	picObj.loadFirstPic = showFirstPic;
+
+	picObj.loadLastPic = showLastPic;
+
+	picObj.preFun = losePicFocus;
+
+	picObj.backFun = showPicFocus;
+
+}
+
+
+
+function showFirstPic(){
+
+	dataInfo.picIdArr[picObj.currPosition].src = dataInfo.allPic[picObj.leftDataPos].src;
+
+	dataInfo.textIdArr[picObj.currPosition].innerText = dataInfo.allPic[picObj.leftDataPos].name;
+
+}
+
+
+
+function showLastPic(){
+
+	dataInfo.picIdArr[(picObj.currPosition + picObj.listSize - 2)%picObj.listSize].src = dataInfo.allPic[picObj.rightDataPos].src;
+
+	dataInfo.textIdArr[(picObj.currPosition + picObj.listSize - 2)%picObj.listSize].innerText = dataInfo.allPic[picObj.rightDataPos].name;
+
+}
+
+
+
+function losePicFocus(){
+
+	dataInfo.bgIdArr[picObj.recodeFocusPos].src = dataInfo.noFocusPic;
+
+}
+
+
+
+function showPicFocus(){
+
+	dataInfo.bgIdArr[picObj.focusPos].src = dataInfo.focusPic;
+
+
+
+}
+
+
+
+
+
+function changePos(_num){
+
+	picObj.changeList(_num);
+
+	$("currPos").innerText = picObj.position + 1 + "";
+
+	iPanel.debug("00000000000000000000 ="+$("currPos").innerText);
+
+}
+
+
+
+function doSelect(){
+
+	dataInfo.divIdArr[picObj.focusPos].style.webkitTransitionDuration = "200ms";
+
+	dataInfo.divIdArr[picObj.focusPos].style.opacity = "0";
+
+	dataInfo.divIdArr[picObj.focusPos].style.webkitTransform = "scale(2)";
+
+	iPanel.debug('luwq===================='+picObj.position);
+
+	var type = dataInfo.allPic[picObj.position].type;
+
+	iPanel.debug(dataInfo.allPic[picObj.position].type);
+
+	if (picObj.position != iPanel.getGlobalVar("albumPos0")) {
+
+		iPanel.setGlobalVar("albumPos0", picObj.position);
+
+		iPanel.setGlobalVar("albumPos1", 0);
+
+		iPanel.setGlobalVar("albumPos2", 0);
+
+		pagePos = 0;
+
+	}
+
+	//alert("receive_"+type+"_"+pagePos+".htm?"+type);
+
+	setTimeout(function(){window.location.href = "receive_"+type+"_"+pagePos+".htm?"+type;}, 10);
+
+}
+
+
+
+function doSelect_2(){
+
+	dataInfo.divIdArr[picObj.focusPos].style.webkitTransitionDuration = "600ms";
+
+	dataInfo.divIdArr[picObj.focusPos].style.opacity = "0";
+
+	dataInfo.divIdArr[picObj.focusPos].style.webkitTransform = "scale(2)";
+
+	var pos = picObj.position%6;
+
+	setTimeout(function(){window.location.href = pathHead + "receive_0.htm?"+pos;}, 10);
+
+}
+
+
+
+function showInfo(){
+
+	$("currPos").innerText = picDataPos + 1;
+
+	$("allLength").innerText = dataLength;
+
+}
+
+
+
+function exitPage(){
+
+	//iPanel.eventFrame.rClockTime.show();	//����Сʱ��
+
+}
+
+
+function $(id){return document.getElementById(id);}
+
+
+
+/*loopList ���������div��overFlowǶ�׵Ļ���(CSS2D)
+
+*@_dataSize(number) �б�ĳ���
+
+*@_focusPos(number) �б�ĳ���
+
+*@_position(number) �б�ĳ���
+
+*@_duration(string)	 �ƶ���ʱ��Ϊ�ַ�ţ��磺��700ms��, "1s"
+
+*@_arrayList(string)	Ҫ�ƶ���div��������,����img��������
+
+*@f (object) ��ǰ����
+
+*@infoFlag(number)	��Ҫ��ʾ������Ϣ��ʱ�����ı��width�� height��ʱ� 1 ΪҪ�ӣ�0Ϊ���ӣ�Ĭ��Ϊ����
+
+{dataSize:num, focusPos:num,  position:num(��ѡ), duration:string(��ѡ), arrayList:object, insideList:objet, picIdList:object, f:object(��ѡ), infoFlag:num(��ѡ)}
+
+*/
+
+function loopList(args){
+
+	this.position = args.position || 0;	//��ݵ�ָ��λ��	
+
+	this.duration = args.duration || "500ms";
+
+	this.f = args.f || window;
+
+	this.arrayList = args.arrayList;
+
+	this.listSize = this.arrayList.length;	//�б?��
+
+	this.infoFlag = args.infoFlag || 0;
+
+	
+
+	this.dataSize = args.dataSize;	//��ݳ���
+
+	this.currPosition = 0;
+
+	this.recodePos = 0;
+
+	this.preFun = function(){};	//���㻹ԭ֮ǰ��״̬
+
+	this.backFun = function(){};	//�γɽ���֮���״̬
+
+	
+
+	this.focusPos = args.focusPos;		//�����λ��
+
+	this.recodeFocusPos = this.focusPos;     //
+
+	
+
+	this.insideList = args.insideList;
+
+	this.picIdList = args.picIdList;
+
+	this.textIdList = args.textIdList;
+
+	
+
+	this.insideDom = [];
+
+	this.picIdDom = [];
+
+	this.textIdDom = [];
+
+	
+
+	iPanel.debug("--aaa--this.listSize ="+this.listSize+ "--this.dataSize ="+this.dataSize+ " ---this.focusPos ="+this.focusPos+"--this.position ="+this.position);
+
+	
+
+	this.posInfo = {
+
+		firstPos:{top:"", left:""},//��һ��λ��, ��һ������Ϊ���top�� �ڶ���Ϊleft ֵ
+
+		lastPos:{top:"", left:""},	//���һ��λ��
+
+		firstStatus:{top:"", left:""},	//��һ��֮ǰ��״̬λ��
+
+		endStatus:{top:"", left:""}			//���һ��֮���λ��
+
+	}
+
+	
+
+	this.leftDataPos = 0;
+
+	this.rightDataPos = 0;
+
+	
+
+	this.leftValue = Math.floor((this.listSize - 1)/2);
+
+	
+
+	iPanel.debug("---this.leftValue ="+this.leftValue);
+
+	
+
+	this.loadFirstPic = function(){};
+
+	this.loadLastPic = function(){};
+
+	
+
+	this.domObj = [];
+
+	
+
+	this.setDocumentObj = function(){		//
+
+		for(var i = 0; i < this.listSize; i++){
+
+			this.domObj[i] = this.$(this.arrayList[i]);	
+
+		}
+
+		if(this.infoFlag == 1){
+
+			var tempInside = this.insideList.length;
+
+			for(var i = 0; i < tempInside; i++){
+
+				this.insideDom[i] = this.$(this.insideList[i]);	
+
+			}
+
+			var temppic = this.picIdList.length;
+
+			for(var i = 0; i < temppic; i++){
+
+				this.picIdDom[i] = this.$(this.picIdList[i]);	
+
+			}
+
+			var tempText = this.textIdList.length;
+
+			for(var i = 0; i < tempText; i++){
+
+				this.textIdDom[i] = this.$(this.textIdList[i]);
+
+			}
+
+		}
+
+	}
+
+	
+
+	this.changeList = function(_num){
+
+		iPanel.debug("------this.currPosition ="+this.currPosition);
+
+		this.recodeFocusPos = this.focusPos;	//��ס�����ƶ�֮ǰ��λ��
+
+		this.recodePos = this.position;
+
+		
+
+		this.currPosition = ((this.currPosition + _num)%(this.listSize) + (this.listSize))%(this.listSize);	//��һ����ʹ�ĵ�һ��λ��
+
+		
+
+		this.position = ((this.position + _num)%this.dataSize + this.dataSize)%this.dataSize;	//����ݽ����λ��
+
+		this.focusPos = ((this.focusPos + _num)%this.listSize + this.listSize)%this.listSize;	//��ҳ�潹���λ��
+
+		//iPanel.debug("_num= "+_num+"-aaa-&&&&&&--this.currPosition ="+this.currPosition +"--this.position ="+this.position+"--this.focusPos ="+this.focusPos);
+
+		if(_num < 0){	//right or down
+
+			//alert(this.currPosition);
+
+			var temp = this.currPosition - 1;
+
+			if(temp < 0) {temp = 3;}
+
+			dataInfo.picIdArr[this.currPosition].src = dataInfo.picIdArr[temp].src;
+
+			this.textIdDom[this.currPosition].innerHTML = this.textIdDom[temp].innerHTML ;
+
+			this.showLeftOrRigthDataPos();
+
+			this.domObj[this.currPosition].style.webkitTransitionDuration = "200ms";	//��Ҫ�����ͼƬ���õ���ʹλ��
+
+			this.loadFirstPic();
+
+			//iPanel.debug("---aaa-----------------");
+
+		
+
+			var tempPre = parseInt(this.domObj[(this.currPosition+1)%this.listSize].style.zIndex);
+
+			this.domObj[this.currPosition].style.zIndex = tempPre - 1;
+
+			//this.debug(this.posInfo.firstPos.top);
+
+			
+
+			this.domObj[this.currPosition].style.top = this.posInfo.firstStatus.top;
+
+			this.domObj[this.currPosition].style.left = this.posInfo.firstStatus.left;
+
+			this.domObj[this.currPosition].style.opacity = "0";
+
+			
+
+			this.domObj[this.currPosition].style.webkitTransitionDuration = this.duration;//������Ķ���
+
+			this.domObj[this.currPosition].style.top = this.posInfo.firstPos.top;
+
+			this.domObj[this.currPosition].style.left = this.posInfo.firstPos.left;
+
+			this.domObj[this.currPosition].style.opacity = "0.8";
+
+			
+
+			//iPanel.debug("---this.recodeFocusPos ="+this.recodeFocusPos+"---this.focusPos="+this.focusPos);
+
+			for(var i = this.currPosition + 1; i < this.currPosition + this.listSize ; i++){	//����ĸ�ֵ
+
+				//alert(this.currPosition + this.listSize - 1);
+
+				if(i%this.listSize == this.recodeFocusPos) this.preFun();	//ʧȥ����֮��Ķ���
+
+				else if(i%this.listSize == this.focusPos) this.backFun();		//��ý���Ķ���
+
+				else this.domObj[i%this.listSize].style.webkitTransitionDuration = this.duration;
+
+				//iPanel.debug("-aaa---i%this.listSize ="+(i%this.listSize));
+
+				if(this.infoFlag == 1){
+
+					//this.debug(i%this.listSize);
+
+					//iPanel.debug("###################### i ="+i);
+
+					//iPanel.debug("&&&&&&&&&&&&this.insideDom[i%this.listSize].style.top ="+this.insideDom[i%this.listSize].style.top);
+
+					//iPanel.debug("&&&&&&& this.insideDom[(i + 1)%this.listSize].style.top ="+this.insideDom[(i + 1)%this.listSize].style.top);
+
+					this.insideDom[i%this.listSize].style.width = this.insideDom[(i + 1)%this.listSize].style.width;
+
+					this.insideDom[i%this.listSize].style.height = this.insideDom[(i + 1)%this.listSize].style.height;
+
+					this.insideDom[i%this.listSize].style.top = this.insideDom[(i + 1)%this.listSize].style.top;
+
+					this.insideDom[i%this.listSize].style.left = this.insideDom[(i + 1)%this.listSize].style.left;
+
+					
+
+					this.textIdDom[i%this.listSize].style.left = this.textIdDom[(i+1)%this.listSize].style.left;
+
+					this.textIdDom[i%this.listSize].style.top = this.textIdDom[(i+1)%this.listSize].style.top;
+
+					this.textIdDom[i%this.listSize].style.fontSize = this.textIdDom[(i+1)%this.listSize].style.fontSize;
+
+					
+
+					//iPanel.debug("i%this.listSize ="+this.picIdDom[i%this.listSize].style.width);
+
+					//iPanel.debug("this.picIdDom[(i + 1)%this.listSize].style.width ="+this.picIdDom[(i + 1)%this.listSize].style.width);
+
+					this.picIdDom[i%this.listSize].style.width = this.picIdDom[(i + 1)%this.listSize].style.width;
+
+					this.picIdDom[i%this.listSize].style.height = this.picIdDom[(i + 1)%this.listSize].style.height;
+
+				}
+
+				//alert(i%this.listSize);
+
+				//this.debug(i%this.listSize);
+
+				//alert(i);
+
+				this.domObj[i%this.listSize].style.zIndex = this.domObj[(i + 1)%this.listSize].style.zIndex;
+
+				this.domObj[i%this.listSize].style.opacity = this.domObj[(i + 1)%this.listSize].style.opacity/100;
+
+				this.domObj[i%this.listSize].style.top = this.domObj[(i + 1)%this.listSize].style.top;
+
+				this.domObj[i%this.listSize].style.left = this.domObj[(i + 1)%this.listSize].style.left;
+
+				this.domObj[i%this.listSize].style.width = this.domObj[(i + 1)%this.listSize].style.width;
+
+				this.domObj[i%this.listSize].style.height = this.domObj[(i + 1)%this.listSize].style.height;
+
+				
+
+			}
+
+			//iPanel.debug("*aaa**************************(this.currPosition + this.listSize - 1)%this.listSize ="+(this.currPosition + this.listSize - 1)%this.listSize);
+
+			//this.debug((this.currPosition + this.listSize - 1)%this.listSize);
+
+			this.domObj[(this.currPosition + this.listSize - 1)%this.listSize].style.webkitTransitionDuration = this.duration;
+
+			this.domObj[(this.currPosition + this.listSize - 1)%this.listSize].style.top =  this.posInfo.endStatus.top;	//�г��Ķ���
+
+			this.domObj[(this.currPosition + this.listSize - 1)%this.listSize].style.left =  this.posInfo.endStatus.left;
+
+			this.domObj[(this.currPosition + this.listSize - 1)%this.listSize].style.opacity =  "0";   
+
+			//iPanel.debug("-aaa-&&&&&&-2222-this.currPosition ="+this.currPosition +"--this.position ="+this.position+"--this.focusPos ="+this.focusPos);
+
+		
+
+		}else if(_num > 0){	//left	or up
+
+			//alert(this.currPosition);
+
+			var temp = (this.currPosition + 4 + this.listSize)%this.listSize;
+
+			var temp2 = (this.currPosition - 1 + this.listSize)%this.listSize;
+
+			//alert(temp + "    " + temp2);
+
+			//if(temp < 0) {temp = 3;}
+
+			dataInfo.picIdArr[temp].src = dataInfo.picIdArr[temp2].src;
+
+			this.textIdDom[temp].innerHTML = this.textIdDom[temp2].innerHTML;
+
+			iPanel.debug("------------1----------in");
+
+			this.showLeftOrRigthDataPos();
+
+			iPanel.debug("-------------2---------in");
+             
+			
+
+			for(var i = this.currPosition + this.listSize - 2; i > this.currPosition - 2; i--){	//����ĸ�ֵ
+
+				//alert(i);
+
+				//alert((i + this.listSize)%this.listSize);
+
+				if((i + this.listSize)%this.listSize == this.recodeFocusPos) this.preFun();	//ʧȥ����֮��Ķ���
+
+				else if((i + this.listSize)%this.listSize == this.focusPos) this.backFun();	//��ý���Ķ���
+
+				else{
+
+					this.domObj[(i + this.listSize)%this.listSize].style.webkitTransitionDuration = this.duration;
+
+				}
+
+				iPanel.debug("--------------3--------in =i ="+i);
+
+				if(this.infoFlag == 1){
+
+					this.insideDom[(i + this.listSize)%this.listSize].style.width = this.insideDom[(i - 1 + this.listSize)%this.listSize].style.width;
+
+					this.insideDom[(i + this.listSize)%this.listSize].style.height = this.insideDom[(i - 1 + this.listSize)%this.listSize].style.height;
+
+					this.insideDom[(i + this.listSize)%this.listSize].style.top = this.insideDom[(i - 1 + this.listSize)%this.listSize].style.top;
+
+					this.insideDom[(i + this.listSize)%this.listSize].style.left = this.insideDom[(i - 1 + this.listSize)%this.listSize].style.left;
+
+					
+
+					this.textIdDom[(i + this.listSize)%this.listSize].style.left = this.textIdDom[(i - 1 + this.listSize)%this.listSize].style.left;
+
+					this.textIdDom[(i + this.listSize)%this.listSize].style.top = this.textIdDom[(i - 1 + this.listSize)%this.listSize].style.top;
+
+					this.textIdDom[(i + this.listSize)%this.listSize].style.fontSize = this.textIdDom[(i - 1 + this.listSize)%this.listSize].style.fontSize;
+
+					
+
+					this.picIdDom[(i + this.listSize)%this.listSize].style.height = this.picIdDom[(i - 1 + this.listSize)%this.listSize].style.height;
+
+					this.picIdDom[(i + this.listSize)%this.listSize].style.width = this.picIdDom[(i - 1 + this.listSize)%this.listSize].style.width;
+
+
+
+				}
+
+				this.domObj[(i + this.listSize)%this.listSize].style.zIndex = this.domObj[(i - 1 + this.listSize)%this.listSize].style.zIndex;
+
+				this.domObj[(i + this.listSize)%this.listSize].style.opacity = this.domObj[(i - 1 + this.listSize)%this.listSize].style.opacity/100;
+
+				this.domObj[(i + this.listSize)%this.listSize].style.top = this.domObj[(i - 1 + this.listSize)%this.listSize].style.top;
+
+				this.domObj[(i + this.listSize)%this.listSize].style.left = this.domObj[(i - 1 + this.listSize)%this.listSize].style.left;
+
+				this.domObj[(i + this.listSize)%this.listSize].style.width = this.domObj[(i - 1 + this.listSize)%this.listSize].style.width;
+
+				this.domObj[(i + this.listSize)%this.listSize].style.height = this.domObj[(i - 1 + this.listSize)%this.listSize].style.height;
+
+			}
+
+			//�г��Ķ���
+
+			this.domObj[(this.currPosition - 1 + this.listSize)%this.listSize].style.webkitTransitionDuration = this.duration;
+
+			this.domObj[(this.currPosition - 1 + this.listSize)%this.listSize].style.top = this.posInfo.firstStatus.top;	
+
+			this.domObj[(this.currPosition - 1 + this.listSize)%this.listSize].style.left = this.posInfo.firstStatus.left;
+
+			this.domObj[(this.currPosition - 1 + this.listSize)%this.listSize].style.opacity = "0";
+
+			
+
+			this.domObj[(this.currPosition + this.listSize - 2)%this.listSize].style.webkitTransitionDuration = "0s";//��Ҫ�����ͼƬ���õ���ĩλ��
+
+			//if(this.listFlag == 1) this.loadLastPic();//this.listSize == this.dataSize ��ʱ�򣬼��ؽ�Ҫ�����ͼƬ
+
+			this.loadLastPic();
+
+			//iPanel.debug("************************aaaa--");
+
+			var tempBack = parseInt(this.domObj[(this.currPosition + this.listSize - 3)%this.listSize].style.zIndex);
+
+			this.domObj[(this.currPosition + this.listSize - 2)%this.listSize].style.zIndex = tempBack - 1;
+
+			
+
+			this.domObj[(this.currPosition + this.listSize - 2)%this.listSize].style.opacity = "0";
+
+			this.domObj[(this.currPosition + this.listSize - 2)%this.listSize].style.top = this.posInfo.endStatus.top;
+
+			this.domObj[(this.currPosition + this.listSize - 2)%this.listSize].style.left = this.posInfo.endStatus.left;
+
+			
+
+			this.domObj[(this.currPosition + this.listSize - 2)%this.listSize].style.webkitTransitionDuration = this.duration;//�����붯��
+
+			
+
+			this.domObj[(this.currPosition + this.listSize - 2)%this.listSize].style.opacity = "0.8";
+
+			this.domObj[(this.currPosition + this.listSize - 2)%this.listSize].style.top = this.posInfo.lastPos.top;	
+
+			this.domObj[(this.currPosition + this.listSize - 2)%this.listSize].style.left = this.posInfo.lastPos.left;
+
+		}	
+
+	}
+
+	
+
+	this.showLeftOrRigthDataPos = function(){
+
+		this.leftDataPos = (this.position - this.leftValue + this.dataSize)%this.dataSize;
+
+		this.rightDataPos = (this.position + this.leftValue)%this.dataSize;
+
+		//iPanel.debug("-aaa--this.leftDataPos ="+this.leftDataPos+"--this.rightDataPos ="+this.rightDataPos);
+
+	}
+	
+
+	this.$= function(id) {
+
+		if(typeof(this.f) == "object"){
+
+			return this.f.document.getElementById(id);
+
+		}
+
+		else{
+
+			return document.getElementById(id);
+
+		}
+
+	}
+
+
+
+
+
+}
+function fff(id){
+    fffNow = id;
+	document.getElementById("fffnow").innerHTML=fffNow;
+	document.getElementById("abc11").style.display="none";
+	document.getElementById("abc12").style.display="none";
+	document.getElementById("abc13").style.display="none";
+	document.getElementById("abc14").style.display="none";
+	document.getElementById("abc15").style.display="none";
+	document.getElementById("abc16").style.display="none";
+	document.getElementById("abc17").style.display="none";
+	document.getElementById("abc18").style.display="none";
+	document.getElementById("abc21").style.display="none";
+	document.getElementById("abc22").style.display="none";
+	document.getElementById("abc23").style.display="none";
+	document.getElementById("abc24").style.display="none";
+	document.getElementById("abc25").style.display="none";
+	document.getElementById("abc19").style.display="none";
+	var abcNow = "abc"+id;
+	document.getElementById(abcNow).style.display="block";
+	
+}
+
+function getaccess(){
+ 
+  xmlhttp=new XMLHttpRequest(); 
+  var poststr = "deviceType=TV&deviceToken=1";
+  xmlhttp.open("post", "https://192.168.1.151/api/init", true);
+  xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  xmlhttp.send(poststr);
+ 
+      xmlhttp.onreadystatechange=function (){ 
+    document.getElementById("xxxxxx").innerHTML= xmlhttp.status;
+     if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+      var jsonResponse=xmlhttp.responseText;
+	 var prcvinceJsons=eval("("+jsonResponse+")");
+	 document.getElementById("xxxxxx").innerHTML= prcvinceJsons.accessToken;
+	 
+    }
+  }
+}
+
+function nextpage1(){
+	var v1 = 'shanghaiEstate';
+	window.location.href = '../taipingInsurance/index.html?from='+v1;
+	}
+</script>
+
+
+
+</head>
+
+<body onload="init()">
+<table>
+
+<div style="width:1280px;height:720px;position:absolute;top:0px;left:0px;">
+
+
+<img style="width:1280px;height:720px;position:absolute;top:0px;left:0px;" src="img/bg_01.png">
+
+<!--<img id="button2" style="position:absolute;width:313px;height:57px;left:705px;top:50px;" src="img/gujia01.png"> -->
+<div id="fffnow" style="width:800px;height:50px;position:absolute;left:200px;top:50px;z-index:999;background-color:#ffffff;display:none;">1111111111</div>
+
+
+
+
+
+<div id="L0" style="position:absolute; width:432px; height:165px; top:143px; left:0px; opacity:0.8; z-index: 8;" class="duration">
+
+  <div  style="position:absolute; width:432px; height:165px; top:0px; left:0px;"><img id="bg_0" src="img/00_banner_3.jpg" width="432px" height="165px"/></div>
+
+  <div  style="position:absolute; width:432px; height:165px;top:0px; left:0px;" id="inside_0">
+
+    <table width="100%" height="100%"  border="0" cellspacing="0" cellpadding="0">
+
+      <tr>
+
+        <td align="center" ><img src=""  width="432" height="165" id="pic_0"/></td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+  <div  style="position:absolute; width:173px; height:19px; top:4px; left:1px; font-size:16px; color:#fff; padding-left:10px; line-height:19px" id="text_0"></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="L1" style="position:absolute; width:668px; height:253px; top:100px; left:306px; opacity:1; z-index: 9;" class="duration" >
+
+  <div  style="position:absolute; width:668px; height:253px; top:0px; left:0px;" class="picRolling"><img id="bg_1" src="img/00_banner_1.jpg" width="668px" height="253px"/></div>
+
+  <div  style="position:absolute;width:668px; height:253px; top:0px; left:0px;" id="inside_1">
+
+    <table width="100%" height="100%"  border="0" cellspacing="0" cellpadding="0">
+
+      <tr>
+
+        <td align="center" ><img src=""  width="668px" height="253px" id="pic_1"/></td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+  <div  style="position:absolute; width:668px; height:19px; top:9px; left:6px; font-size:24px; color:#fff; padding-left:0px; line-height:35px" id="text_1"></div>
+
+</div>
+
+
+<div id="L2" style="position:absolute; width:432px; height:165px; top:143px; left:848px; opacity:0.8; z-index: 8;" class="duration">
+
+  <div  style="position:absolute;  width:100%; height:100%; top:0px; left:0px;" class="picRolling"><img id="bg_2" src="img/00_banner_2.jpg" width="100%" height="100%"/></div>
+
+  <div  style="position:absolute;  width:432px; height:165px; top:0px; left:0px;" id="inside_2">
+
+    <table width="100%" height="100%"  border="0" cellspacing="0" cellpadding="0">
+
+      <tr>
+
+        <td align="center" ><img src="" name="pic_6" width="432" height="165" id="pic_2"/></td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+  <div  style="position:absolute; width:173px; height:19px; top:4px; left:1px; font-size:16px; color:#fff; padding-left:10px; line-height:19px" id="text_2"></div>
+
+</div>
+
+
+
+<!--<div id="L5" style="position:absolute; width:222px; height:231px; top:321px; left:829px; opacity:1; z-index: 4;" class="duration">
+
+  <div  style="position:absolute; width:100%; height:100%; top:0px; left:0px;"><img id="bg_5" src="xz_bg0_3.png" width="100%" height="100%"/></div>
+
+  <div  style="position:absolute; width:222px; height:140px; top:33px; left:0px;" id="inside_5">
+
+    <table width="100%" height="100%"  border="0" cellspacing="0" cellpadding="0">
+
+      <tr>
+
+        <td height="144" align="center" ><img src="" name="pic_5" width="198" height="133" id="pic_5"/></td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+  <div  style="position:absolute; width:198px; height:24px; top:9px; left:1px; font-size:18px; color:#fff; padding-left:10px; line-height:24px" id="text_5">20090904011b </div>
+
+</div>-->
+
+
+<div id="L3" style="position:absolute; width:435px; height:162px; top:112px; left:272px; opacity:0; z-index: 0;" class="duration">
+
+  <div  style="position:absolute; width:432px; height:165px; top:0px; left:0px;" class="picRolling"> <img id="bg_3" src="img/00_banner_3.jpg" width="100%" height="100%"/> </div>
+
+  <div  style="position:absolute; width:432px; height:165px; top:0px; left:0px;" id="inside_3">
+
+    
+
+    <table width="100%" height="100%"  border="0" cellspacing="0" cellpadding="0">
+
+      <tr>
+
+        <td align="center" ><img src="" name="pic_5" width="432" height="165" id="pic_3"/></td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+  <div  style="position:absolute; width:129px; height:14px; top:5px; left:2px; font-size:12px; color:#fff; padding-left:10px; line-height:14px" id="text_3"></div>
+
+</div>
+
+
+<a id="11" href="zhengfuxinxi-index.html" style="top:0px;left:0px;" onfocus="fff(11);">&nbsp </a>  <!--zhengfuxinxi-index.html-->
+<a id="12" href="fhhouse3s.html" style="position:absolute;top:0px;left:1px;" onfocus="fff(12)">&nbsp </a>
+<a id="13" href="jingqingqidai/chanquandiaocha.html" style="position:absolute;top:0px;left:2px;" onfocus="fff(13)">&nbsp </a>
+<a id="14" id="shjf" href="input.html" style="position:absolute;top:0px;left:3px;" onfocus="fff(14)">&nbsp </a>
+<a id="15" href="shenghuojiaofei.html" style="position:absolute;top:0px;left:4px;" onfocus="fff(15)">&nbsp </a>
+<a id="16" href="javascript:nextpage1();" style="position:absolute;top:0px;left:5px;" onfocus="fff(16)">&nbsp </a>
+<a id="17" href="jingqingqidai/fangkuanjianguan.html" style="position:absolute;top:0px;left:6px;" onfocus="fff(17)">&nbsp </a>
+<a id="18" href="shenghuojiaofei.html" style="position:absolute;top:0px;left:7px;" onfocus="fff(18)">&nbsp </a>
+<a id="19" href="shipin/shanghaiEstate_video.html" style="position:absolute;top:0px;left:7px;" onfocus="fff(19)">&nbsp </a>
+
+
+<a id="21" href="fhhouse1.html" style="position:absolute;top:1px;left:0px;" onfocus="fff(21)">&nbsp </a>
+<a id="22" href="shopList/shopList.html" style="position:absolute;top:1px;left:1px;" onfocus="fff(22)">&nbsp </a>
+<a id="23" href="agent.html" style="position:absolute;top:1px;left:2px;" onfocus="fff(23)">&nbsp </a>
+<a id="24" href="evaluationList/evaluationList.html " style="position:absolute;top:1px;left:3px;" onfocus="fff(24)">&nbsp </a>
+<a id="25" href="appraiser.html" style="position:absolute;top:1px;left:4px;" onfocus="fff(25)">&nbsp </a>
+
+
+
+
+
+<!--<a id="icon26" href="input.html" onfocus="setStyle(this.id)"><img style="height:192px; width:147px;margin-left:11px;" src="img/00_game.png"></a>-->
+
+<!--<a id="icon26" href="" onfocus="setStyle(this.id)"><img style="height:192px; width:147px;margin-left:11px;" src="img/00_tuo.png"></a>-->
+
+
+
+
+
+
+
+
+<div style="width:1280px;height:720px;position:absolute;top:0px;left:0px;">
+<img id="abc11" style="width:180px;height:230px;position:absolute;top:363px;left:76px;z-index:9999;display:none;" src="img/00_focused_tab.png">
+<img id="abc12" style="width:180px;height:230px;position:absolute;top:363px;left:234px;none;z-index:9999;display:none;" src="img/00_focused_tab.png">
+<img id="abc13" style="width:188px;height:131px;position:absolute;top:362px;left:388px;none;z-index:9999;display:none;" src="img/00_focused_tab2.png">
+<img id="abc14" style="width:180px;height:230px;position:absolute;top:363px;left:550px;none;z-index:9999;display:none;" src="img/00_focused_tab.png">
+<img id="abc15" style="width:188px;height:131px;position:absolute;top:362px;left:704px;none;z-index:9999;display:none;" src="img/00_focused_tab2.png">
+<img id="abc16" style="width:180px;height:230px;position:absolute;top:363px;left:866px;none;z-index:9999;display:none;" src="img/00_focused_tab.png">
+<img id="abc17" style="width:188px;height:131px;position:absolute;top:462px;left:388px;none;z-index:9999;display:none;" src="img/00_focused_tab2.png">
+<img id="abc18" style="width:188px;height:131px;position:absolute;top:462px;left:704px;none;z-index:9999;display:none;" src="img/00_focused_tab2.png">
+<img id="abc21" style="width:243px;height:82px;position:absolute;top:592px;left:80px;z-index:999;display:none;" src="img/00_focused_choice.png">
+<img id="abc22" style="width:243px;height:82px;position:absolute;top:592px;left:302px;z-index:999;display:none;" src="img/00_focused_choice.png">
+<img id="abc23" style="width:243px;height:82px;position:absolute;top:592px;left:520px;z-index:999;display:none;" src="img/00_focused_choice.png">
+<img id="abc24" style="width:243px;height:82px;position:absolute;top:592px;left:738px;z-index:999;display:none;" src="img/00_focused_choice.png">
+<img id="abc25" style="width:243px;height:82px;position:absolute;top:592px;left:957px;z-index:999;display:none;" src="img/00_focused_choice.png">
+<img id="abc19" style="width:180px;height:230px;position:absolute;top:363px;left:1024px;none;z-index:9999;display:none;" src="img/00_focused_tab.png">
+</div>
+
+</div>	
+</table>
+</body>
+
+</html>
+

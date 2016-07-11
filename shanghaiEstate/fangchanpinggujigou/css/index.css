@@ -1,0 +1,197 @@
+@charset "utf-8";
+#aa a{
+	position: absolute;
+	top:10px;
+}
+#a1{left:10px;}
+#a2{left:30px;}
+#a3{left:50px;}
+#a4{left:70px;}
+#a5{left:90px;}
+#a6{left:110px;}
+#a7{left:140px;}
+#a8{left:200px;}
+#a9{left:260px;}
+#a10{left:320px;}
+#bgImg{
+	position: absolute;
+	left:0;
+	top:0;
+	width:1280px;
+	height:720px;
+	display: block;
+}
+.conImg img{
+	display: block;
+	position: absolute;
+}
+#ig11{
+	left:91px;
+	top:148px;
+	display: none;
+}
+#ig12{
+	left:91px;
+	top:321px;
+	display: none;
+}
+#ig13{
+	left:91px;
+	top:494px;
+	display: none;
+}
+#ig1{
+	left:80px;
+	top:130px;
+	display: none;
+}
+#ig2{
+	left:80px;
+	top:303px;
+	display: none;
+}
+#ig3{
+	left:80px;
+	top:476px;
+	display: none;
+}
+#ig7{
+	left:72px;
+	top:90px;
+	width:104px;
+	height:51px;
+	display: none;
+}
+#ig8{
+	left:141px;
+	top:90px;
+	width:104px;
+	height:51px;
+	display: none;
+}
+#ig9{
+	left:935px;
+	top:90px;
+	width:104px;
+	height:51px;
+	display: none;
+}
+#ig10{
+	left:1093px;
+	top:90px;
+	width:104px;
+	height:51px;
+	display: none;
+}
+#pageNum{
+	position: absolute;
+	left:1025px;
+	top:101px;
+	width:89px;
+	height:34px;
+	line-height: 34px;
+	text-align: center;
+	font-size:18px;
+	color:#b8bcc7;
+	font-weight: bold;
+	/*display: none;*/
+}
+#nextpre{
+	position: absolute;
+	left:953px;
+	top:101px;
+	/*display: none;*/
+}
+.main{
+	position: absolute;
+	width:536px;
+	height:155px;
+}
+#img1{
+	left:95px;
+	top:149px;
+}
+#img2{
+	left:95px;
+	top:322px;
+}
+#img3{
+	left:95px;
+	top:496px;
+}
+#img1,#img2,#img3{
+	display: none;
+}
+.logo{
+	position: absolute;
+	left:25px;
+	top:23px;
+	width:110px;
+	height:110px;
+}
+
+.title{
+	position: absolute;
+	left:159px;
+	top:23px;
+	font-size:24px;
+	color:#fff;
+	font-weight: bold;
+}
+.yellow{
+	position: absolute;
+	left:477px;
+	top:22px;
+}
+.fuwu{
+	position: absolute;
+	left:190px;
+	top:74px;
+	font-size:18px;
+	color:#999;
+	font-weight: bold;
+}
+.fuwu span{
+	color:#fcffb0;
+}
+.zhuban{
+	position: absolute;
+	left:190px;
+	top:108px;
+	font-size:18px;
+	color:#999;
+	font-weight: bold;
+}
+.zhuban span{
+	color:#fcffb0;
+}
+.right{
+	position: absolute;
+	left:857px;
+	top:0;
+	font-size:18px;
+	color:#ffec1b;
+	font-weight: bold;
+	width:275px;
+}
+.dengji{
+	position: absolute;
+	left:0px;
+	top:26px;
+}
+.dengji span{
+	font-size:24px;
+}
+.juli{
+	position: absolute;
+	left:2px;
+	top:70px;
+	font-weight: bold;
+}
+.juNum{
+	font-size: 24px;
+}
+#juli2, #juli3{
+	color:#fff;
+	top:95px;
+}
