@@ -19,7 +19,7 @@
 //var mac_check_url = "http://10.27.107.21:8000/brm/ocn/user/query?userId=11&mac="; //生产环境
 //var mac_check_url = "https://219.233.47.225:8880/RemoteBackend/bill/getBillAcct?userId=1&mac="; 
 
-var web_url = "http://10.27.97.106:8170" //测试环境
+var web_url = "http://192.168.200.46:8170";//测试环境
 
 var get_mac_address = function(){
 	//var Mac = stbMac.split("-");

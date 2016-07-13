@@ -284,7 +284,7 @@ function addIndex(as, asLength){
 			}
 //			overdisplay('img' + partnow);
 //			document.getElementById("test").innerHTML = partnow;
-		}
+		};
 		as[i].onblur = function(){
 //			outdisplay('img' + partnow);
 			if(partnow >4){
